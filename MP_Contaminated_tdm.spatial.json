@@ -1,0 +1,2850 @@
+{
+    "Portal_Dynamic": [
+        {
+            "name": "TEAM_1_HQ",
+            "AltTeam": "TeamNeutral",
+            "ObjId": 1,
+            "InfantrySpawns": [
+                "TEAM_1_HQ/SpawnPoint_1_1",
+                "TEAM_1_HQ/SpawnPoint_1_2",
+                "TEAM_1_HQ/SpawnPoint_1_3",
+                "TEAM_1_HQ/SpawnPoint_1_4"
+            ],
+            "HQArea": "TEAM_1_HQ/HQ_Team1",
+            "type": "HQ_PlayerSpawner",
+            "right": {
+                "x": 0.958586,
+                "y": 0,
+                "z": 0.284802
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.284802,
+                "y": 0,
+                "z": 0.958586
+            },
+            "position": {
+                "x": -74.0415,
+                "y": 406.789,
+                "z": 44.8427
+            },
+            "id": "TEAM_1_HQ",
+            "linked": [
+                "HQArea",
+                "InfantrySpawns"
+            ]
+        },
+        {
+            "name": "HQ_Team1",
+            "type": "PolygonVolume",
+            "id": "TEAM_1_HQ/HQ_Team1",
+            "height": 0,
+            "points": [
+                {
+                    "x": -69.0415,
+                    "y": 409.289,
+                    "z": 49.8427
+                },
+                {
+                    "x": -69.0415,
+                    "y": 409.289,
+                    "z": 39.8427
+                },
+                {
+                    "x": -79.0415,
+                    "y": 409.289,
+                    "z": 39.8427
+                },
+                {
+                    "x": -79.0415,
+                    "y": 409.289,
+                    "z": 49.8427
+                }
+            ]
+        },
+        {
+            "name": "SpawnPoint_1_1",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.3161460008596,
+                "y": 0,
+                "z": -0.9487101685628
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.9487101685628,
+                "y": 0,
+                "z": 0.3161460008596
+            },
+            "position": {
+                "x": -73.187094,
+                "y": 406.789,
+                "z": 41.966942
+            },
+            "id": "TEAM_1_HQ/SpawnPoint_1_1"
+        },
+        {
+            "name": "SpawnPoint_1_2",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.411769457922,
+                "y": 0,
+                "z": -0.911287604746
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.911287604746,
+                "y": 0,
+                "z": 0.411769457922
+            },
+            "position": {
+                "x": -71.165742,
+                "y": 406.789,
+                "z": 45.697106
+            },
+            "id": "TEAM_1_HQ/SpawnPoint_1_2"
+        },
+        {
+            "name": "SpawnPoint_1_3",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.390843344376,
+                "y": 0,
+                "z": -0.920457149268
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.920457149268,
+                "y": 0,
+                "z": 0.390843344376
+            },
+            "position": {
+                "x": -76.917258,
+                "y": 406.789,
+                "z": 43.988294
+            },
+            "id": "TEAM_1_HQ/SpawnPoint_1_3"
+        },
+        {
+            "name": "SpawnPoint_1_4",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.586089579208,
+                "y": 0,
+                "z": -0.810245354944
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.810245354944,
+                "y": 0,
+                "z": 0.586089579208
+            },
+            "position": {
+                "x": -74.89590965671802,
+                "y": 406.789,
+                "z": 47.71845691356581
+            },
+            "id": "TEAM_1_HQ/SpawnPoint_1_4"
+        },
+        {
+            "name": "TEAM_1_HQ2",
+            "AltTeam": "TeamNeutral",
+            "ObjId": 2,
+            "InfantrySpawns": [
+                "TEAM_1_HQ2/SpawnPoint_1_1",
+                "TEAM_1_HQ2/SpawnPoint_1_2",
+                "TEAM_1_HQ2/SpawnPoint_1_3",
+                "TEAM_1_HQ2/SpawnPoint_1_4"
+            ],
+            "HQArea": "TEAM_1_HQ2/HQ_Team1",
+            "type": "HQ_PlayerSpawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -80.2446,
+                "y": 321.504,
+                "z": 72.6614
+            },
+            "id": "TEAM_1_HQ2",
+            "linked": [
+                "HQArea",
+                "InfantrySpawns"
+            ]
+        },
+        {
+            "name": "HQ_Team1",
+            "type": "PolygonVolume",
+            "id": "TEAM_1_HQ2/HQ_Team1",
+            "height": 0,
+            "points": [
+                {
+                    "x": -75.2446,
+                    "y": 324.004,
+                    "z": 77.6614
+                },
+                {
+                    "x": -75.2446,
+                    "y": 324.004,
+                    "z": 67.6614
+                },
+                {
+                    "x": -85.2446,
+                    "y": 324.004,
+                    "z": 67.6614
+                },
+                {
+                    "x": -85.2446,
+                    "y": 324.004,
+                    "z": 77.6614
+                }
+            ]
+        },
+        {
+            "name": "SpawnPoint_1_1",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.999884,
+                "y": 0,
+                "z": 0.0152535
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.0152535,
+                "y": 0,
+                "z": 0.999884
+            },
+            "position": {
+                "x": -80.2446,
+                "y": 321.504,
+                "z": 69.6614
+            },
+            "id": "TEAM_1_HQ2/SpawnPoint_1_1"
+        },
+        {
+            "name": "SpawnPoint_1_2",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.9995,
+                "y": 0,
+                "z": 0.0316198
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.0316198,
+                "y": 0,
+                "z": -0.9995
+            },
+            "position": {
+                "x": -77.2446,
+                "y": 321.504,
+                "z": 72.6614
+            },
+            "id": "TEAM_1_HQ2/SpawnPoint_1_2"
+        },
+        {
+            "name": "SpawnPoint_1_3",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.0428871,
+                "y": 0,
+                "z": -0.99908
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.99908,
+                "y": 0,
+                "z": -0.0428871
+            },
+            "position": {
+                "x": -83.2446,
+                "y": 321.504,
+                "z": 72.6614
+            },
+            "id": "TEAM_1_HQ2/SpawnPoint_1_3"
+        },
+        {
+            "name": "SpawnPoint_1_4",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.0841819,
+                "y": 0,
+                "z": 0.99645
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.99645,
+                "y": 0,
+                "z": 0.0841819
+            },
+            "position": {
+                "x": -80.2446,
+                "y": 321.504,
+                "z": 75.6614
+            },
+            "id": "TEAM_1_HQ2/SpawnPoint_1_4"
+        },
+        {
+            "name": "TEAM_1_HQ3",
+            "AltTeam": "TeamNeutral",
+            "ObjId": 3,
+            "InfantrySpawns": [
+                "TEAM_1_HQ3/SpawnPoint_1_1",
+                "TEAM_1_HQ3/SpawnPoint_1_2",
+                "TEAM_1_HQ3/SpawnPoint_1_3",
+                "TEAM_1_HQ3/SpawnPoint_1_4"
+            ],
+            "HQArea": "TEAM_1_HQ3/HQ_Team1",
+            "type": "HQ_PlayerSpawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -36.6196,
+                "y": 324.094,
+                "z": 1.57475
+            },
+            "id": "TEAM_1_HQ3",
+            "linked": [
+                "HQArea",
+                "InfantrySpawns"
+            ]
+        },
+        {
+            "name": "HQ_Team1",
+            "type": "PolygonVolume",
+            "id": "TEAM_1_HQ3/HQ_Team1",
+            "height": 0,
+            "points": [
+                {
+                    "x": -31.6196,
+                    "y": 326.594,
+                    "z": 6.57475
+                },
+                {
+                    "x": -31.6196,
+                    "y": 326.594,
+                    "z": -3.42525
+                },
+                {
+                    "x": -41.6196,
+                    "y": 326.594,
+                    "z": -3.42525
+                },
+                {
+                    "x": -41.6196,
+                    "y": 326.594,
+                    "z": 6.57475
+                }
+            ]
+        },
+        {
+            "name": "SpawnPoint_1_1",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.999884,
+                "y": 0,
+                "z": 0.0152535
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.0152535,
+                "y": 0,
+                "z": 0.999884
+            },
+            "position": {
+                "x": -36.6196,
+                "y": 324.094,
+                "z": -1.42525
+            },
+            "id": "TEAM_1_HQ3/SpawnPoint_1_1"
+        },
+        {
+            "name": "SpawnPoint_1_2",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.9995,
+                "y": 0,
+                "z": 0.0316198
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.0316198,
+                "y": 0,
+                "z": -0.9995
+            },
+            "position": {
+                "x": -33.6196,
+                "y": 324.094,
+                "z": 1.57475
+            },
+            "id": "TEAM_1_HQ3/SpawnPoint_1_2"
+        },
+        {
+            "name": "SpawnPoint_1_3",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.0428871,
+                "y": 0,
+                "z": -0.99908
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0.99908,
+                "y": 0,
+                "z": -0.0428871
+            },
+            "position": {
+                "x": -39.6196,
+                "y": 324.094,
+                "z": 1.57475
+            },
+            "id": "TEAM_1_HQ3/SpawnPoint_1_3"
+        },
+        {
+            "name": "SpawnPoint_1_4",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.0841819,
+                "y": 0,
+                "z": 0.99645
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.99645,
+                "y": 0,
+                "z": 0.0841819
+            },
+            "position": {
+                "x": -36.6196,
+                "y": 324.094,
+                "z": 4.57475
+            },
+            "id": "TEAM_1_HQ3/SpawnPoint_1_4"
+        },
+        {
+            "name": "TEAM_2_HQ",
+            "Team": "Team2",
+            "AltTeam": "TeamNeutral",
+            "ObjId": 4,
+            "InfantrySpawns": [
+                "TEAM_2_HQ/SpawnPoint_2_1",
+                "TEAM_2_HQ/SpawnPoint_2_2",
+                "TEAM_2_HQ/SpawnPoint_2_3",
+                "TEAM_2_HQ/SpawnPoint_2_4"
+            ],
+            "HQArea": "TEAM_2_HQ/HQ_Team2",
+            "type": "HQ_PlayerSpawner",
+            "right": {
+                "x": 0.879914,
+                "y": 0,
+                "z": 0.475133
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.475133,
+                "y": 0,
+                "z": 0.879914
+            },
+            "position": {
+                "x": 37.5905,
+                "y": 407.799,
+                "z": 62.8237
+            },
+            "id": "TEAM_2_HQ",
+            "linked": [
+                "HQArea",
+                "InfantrySpawns"
+            ]
+        },
+        {
+            "name": "HQ_Team2",
+            "type": "PolygonVolume",
+            "id": "TEAM_2_HQ/HQ_Team2",
+            "height": 0,
+            "points": [
+                {
+                    "x": 42.5905,
+                    "y": 410.299,
+                    "z": 67.8237
+                },
+                {
+                    "x": 42.5905,
+                    "y": 410.299,
+                    "z": 57.8237
+                },
+                {
+                    "x": 32.5905,
+                    "y": 410.299,
+                    "z": 57.8237
+                },
+                {
+                    "x": 32.5905,
+                    "y": 410.299,
+                    "z": 67.8237
+                }
+            ]
+        },
+        {
+            "name": "SpawnPoint_2_1",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.5428386094876,
+                "y": 0,
+                "z": 0.8398383001028
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.8398383001028,
+                "y": 0,
+                "z": -0.5428386094876
+            },
+            "position": {
+                "x": 39.015905713207076,
+                "y": 407.799,
+                "z": 60.183961624974955
+            },
+            "id": "TEAM_2_HQ/SpawnPoint_2_1"
+        },
+        {
+            "name": "SpawnPoint_2_2",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.562199189144,
+                "y": 0,
+                "z": 0.827001988457
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.827001988457,
+                "y": 0,
+                "z": -0.562199189144
+            },
+            "position": {
+                "x": 40.23024109375507,
+                "y": 407.799,
+                "z": 64.24910067830396
+            },
+            "id": "TEAM_2_HQ/SpawnPoint_2_2"
+        },
+        {
+            "name": "SpawnPoint_2_3",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.4143757071586,
+                "y": 0,
+                "z": 0.9101053536833
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.9101053536833,
+                "y": 0,
+                "z": -0.4143757071586
+            },
+            "position": {
+                "x": 34.95075890624493,
+                "y": 407.799,
+                "z": 61.39829932169603
+            },
+            "id": "TEAM_2_HQ/SpawnPoint_2_3"
+        },
+        {
+            "name": "SpawnPoint_2_4",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.109872569651,
+                "y": 1.60855e-08,
+                "z": 0.993946108417
+            },
+            "up": {
+                "x": 3.1639025557e-08,
+                "y": 1,
+                "z": -1.9680849899e-08
+            },
+            "front": {
+                "x": -0.993946108417,
+                "y": 3.36098e-08,
+                "z": 0.109872569651
+            },
+            "position": {
+                "x": 36.165101,
+                "y": 407.799,
+                "z": 65.463442
+            },
+            "id": "TEAM_2_HQ/SpawnPoint_2_4"
+        },
+        {
+            "name": "TEAM_2_HQ2",
+            "Team": "Team2",
+            "AltTeam": "TeamNeutral",
+            "ObjId": 5,
+            "InfantrySpawns": [
+                "TEAM_2_HQ2/SpawnPoint_2_1",
+                "TEAM_2_HQ2/SpawnPoint_2_2",
+                "TEAM_2_HQ2/SpawnPoint_2_3",
+                "TEAM_2_HQ2/SpawnPoint_2_4"
+            ],
+            "HQArea": "TEAM_2_HQ2/HQ_Team2",
+            "type": "HQ_PlayerSpawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 12.2299,
+                "y": 319.101,
+                "z": 107.149
+            },
+            "id": "TEAM_2_HQ2",
+            "linked": [
+                "HQArea",
+                "InfantrySpawns"
+            ]
+        },
+        {
+            "name": "HQ_Team2",
+            "type": "PolygonVolume",
+            "id": "TEAM_2_HQ2/HQ_Team2",
+            "height": 0,
+            "points": [
+                {
+                    "x": 17.2299,
+                    "y": 321.601,
+                    "z": 112.149
+                },
+                {
+                    "x": 17.2299,
+                    "y": 321.601,
+                    "z": 102.149
+                },
+                {
+                    "x": 7.2299,
+                    "y": 321.601,
+                    "z": 102.149
+                },
+                {
+                    "x": 7.2299,
+                    "y": 321.601,
+                    "z": 112.149
+                }
+            ]
+        },
+        {
+            "name": "SpawnPoint_2_1",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.482381,
+                "y": 0,
+                "z": 0.875962
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.875962,
+                "y": 0,
+                "z": -0.482381
+            },
+            "position": {
+                "x": 12.2299,
+                "y": 319.101,
+                "z": 104.149
+            },
+            "id": "TEAM_2_HQ2/SpawnPoint_2_1"
+        },
+        {
+            "name": "SpawnPoint_2_2",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.622515,
+                "y": 0,
+                "z": 0.782608
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.782608,
+                "y": 0,
+                "z": -0.622515
+            },
+            "position": {
+                "x": 15.2299,
+                "y": 319.101,
+                "z": 107.149
+            },
+            "id": "TEAM_2_HQ2/SpawnPoint_2_2"
+        },
+        {
+            "name": "SpawnPoint_2_3",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.943657,
+                "y": 0,
+                "z": 0.330926
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.330926,
+                "y": 0,
+                "z": -0.943657
+            },
+            "position": {
+                "x": 9.2299,
+                "y": 319.101,
+                "z": 107.149
+            },
+            "id": "TEAM_2_HQ2/SpawnPoint_2_3"
+        },
+        {
+            "name": "SpawnPoint_2_4",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.642159,
+                "y": 0,
+                "z": 0.766571
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.766571,
+                "y": 0,
+                "z": -0.642159
+            },
+            "position": {
+                "x": 12.2299,
+                "y": 319.101,
+                "z": 110.149
+            },
+            "id": "TEAM_2_HQ2/SpawnPoint_2_4"
+        },
+        {
+            "name": "TEAM_2_HQ3",
+            "Team": "Team2",
+            "AltTeam": "TeamNeutral",
+            "ObjId": 6,
+            "InfantrySpawns": [
+                "TEAM_2_HQ3/SpawnPoint_2_1",
+                "TEAM_2_HQ3/SpawnPoint_2_2",
+                "TEAM_2_HQ3/SpawnPoint_2_3",
+                "TEAM_2_HQ3/SpawnPoint_2_4"
+            ],
+            "HQArea": "TEAM_2_HQ3/HQ_Team2",
+            "type": "HQ_PlayerSpawner",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 42.0997,
+                "y": 320.252,
+                "z": 62.5732
+            },
+            "id": "TEAM_2_HQ3",
+            "linked": [
+                "HQArea",
+                "InfantrySpawns"
+            ]
+        },
+        {
+            "name": "HQ_Team2",
+            "type": "PolygonVolume",
+            "id": "TEAM_2_HQ3/HQ_Team2",
+            "height": 0,
+            "points": [
+                {
+                    "x": 47.0997,
+                    "y": 322.752,
+                    "z": 67.5732
+                },
+                {
+                    "x": 47.0997,
+                    "y": 322.752,
+                    "z": 57.5732
+                },
+                {
+                    "x": 37.0997,
+                    "y": 322.752,
+                    "z": 57.5732
+                },
+                {
+                    "x": 37.0997,
+                    "y": 322.752,
+                    "z": 67.5732
+                }
+            ]
+        },
+        {
+            "name": "SpawnPoint_2_1",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.144547,
+                "y": 0,
+                "z": 0.989499
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.989499,
+                "y": 0,
+                "z": -0.144547
+            },
+            "position": {
+                "x": 42.0997,
+                "y": 320.252,
+                "z": 61.15501
+            },
+            "id": "TEAM_2_HQ3/SpawnPoint_2_1"
+        },
+        {
+            "name": "SpawnPoint_2_2",
+            "type": "SpawnPoint",
+            "right": {
+                "x": 0.107669,
+                "y": 0,
+                "z": 0.994187
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.994187,
+                "y": 0,
+                "z": 0.107669
+            },
+            "position": {
+                "x": 45.0997,
+                "y": 320.252,
+                "z": 62.5732
+            },
+            "id": "TEAM_2_HQ3/SpawnPoint_2_2"
+        },
+        {
+            "name": "SpawnPoint_2_3",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.201916,
+                "y": 0,
+                "z": 0.979403
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.979403,
+                "y": 0,
+                "z": -0.201916
+            },
+            "position": {
+                "x": 40.40469,
+                "y": 320.252,
+                "z": 63.476249
+            },
+            "id": "TEAM_2_HQ3/SpawnPoint_2_3"
+        },
+        {
+            "name": "SpawnPoint_2_4",
+            "type": "SpawnPoint",
+            "right": {
+                "x": -0.165771,
+                "y": 0,
+                "z": 0.986164
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": -0.986164,
+                "y": 0,
+                "z": -0.165771
+            },
+            "position": {
+                "x": 42.0997,
+                "y": 320.252,
+                "z": 65.26015
+            },
+            "id": "TEAM_2_HQ3/SpawnPoint_2_4"
+        },
+        {
+            "name": "CombatArea",
+            "CombatVolume": "CombatArea/CombatVolume",
+            "type": "CombatArea",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -85.6095,
+                "y": 287.693,
+                "z": 253.579
+            },
+            "id": "CombatArea",
+            "linked": [
+                "CombatVolume"
+            ]
+        },
+        {
+            "name": "CombatVolume",
+            "color": [
+                0.899342,
+                0.171908,
+                0.648036,
+                0.42
+            ],
+            "type": "PolygonVolume",
+            "id": "CombatArea/CombatVolume",
+            "height": 100,
+            "points": [
+                {
+                    "x": -70.1695,
+                    "y": 318.7721,
+                    "z": 27.019
+                },
+                {
+                    "x": -42.2669,
+                    "y": 318.7721,
+                    "z": -19.77
+                },
+                {
+                    "x": 64.0993,
+                    "y": 318.7721,
+                    "z": 32.065
+                },
+                {
+                    "x": 13.2342,
+                    "y": 318.7721,
+                    "z": 138.31098
+                },
+                {
+                    "x": -95.6325,
+                    "y": 318.7721,
+                    "z": 73.1842
+                }
+            ]
+        },
+        {
+            "name": "DeployCam",
+            "type": "DeployCam",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 0.101056,
+                "z": -0.994881
+            },
+            "front": {
+                "x": 0,
+                "y": 0.994881,
+                "z": 0.101056
+            },
+            "position": {
+                "x": -26.8732,
+                "y": 921.56404658839,
+                "z": 64.37495734164
+            },
+            "id": "Camera3D/DeployCam"
+        },
+        {
+            "name": "Vegatation_06",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -46.9508,
+                "y": 324.164,
+                "z": -7.03099
+            },
+            "id": "Vegatation_06"
+        },
+        {
+            "name": "Vegatation_07",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -38.1823,
+                "y": 324.549,
+                "z": -6.75112
+            },
+            "id": "Vegatation_07"
+        },
+        {
+            "name": "Vegatation_08",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -15.9408,
+                "y": 324.853,
+                "z": -0.755607
+            },
+            "id": "Vegatation_08"
+        },
+        {
+            "name": "Vegatation_09",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -26.4663,
+                "y": 325.027,
+                "z": -4.75707
+            },
+            "id": "Vegatation_09"
+        },
+        {
+            "name": "Vegatation_10",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -10.9885,
+                "y": 324.188,
+                "z": 3.88823
+            },
+            "id": "Vegatation_10"
+        },
+        {
+            "name": "Vegatation_11",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -4.38373,
+                "y": 324.178,
+                "z": 7.53255
+            },
+            "id": "Vegatation_11"
+        },
+        {
+            "name": "Vegatation_04",
+            "type": "Vegatation_04",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -0.173116,
+                "y": 323.146,
+                "z": 13.6226
+            },
+            "id": "Vegatation_04"
+        },
+        {
+            "name": "Vegatation_01",
+            "type": "Vegatation_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 6.68417,
+                "y": 323.669,
+                "z": 17.1194
+            },
+            "id": "Vegatation_01"
+        },
+        {
+            "name": "Vegatation_12",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 15.0918,
+                "y": 324.544,
+                "z": 17.2108
+            },
+            "id": "Vegatation_12"
+        },
+        {
+            "name": "Vegatation_13",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 20.4721,
+                "y": 325.238,
+                "z": 20.3789
+            },
+            "id": "Vegatation_13"
+        },
+        {
+            "name": "Vegatation_05",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 25.5318,
+                "y": 325.954,
+                "z": 25.6977
+            },
+            "id": "Vegatation_05"
+        },
+        {
+            "name": "Vegatation_03",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 36.6151,
+                "y": 327.914,
+                "z": 32.7656
+            },
+            "id": "Vegatation_03"
+        },
+        {
+            "name": "Vegatation_02",
+            "type": "Vegatation_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 41.7763,
+                "y": 325.94,
+                "z": 34.1526
+            },
+            "id": "Vegatation_02"
+        },
+        {
+            "name": "Vegatation_14",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 45.9808,
+                "y": 324.125,
+                "z": 41.0851
+            },
+            "id": "Vegatation_14"
+        },
+        {
+            "name": "Vegatation_15",
+            "type": "Vegatation_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 44.7464,
+                "y": 324.592,
+                "z": 50.2701
+            },
+            "id": "Vegatation_15"
+        },
+        {
+            "name": "Vegatation_16",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 48.9504,
+                "y": 321.906,
+                "z": 33.0137
+            },
+            "id": "Vegatation_16"
+        },
+        {
+            "name": "Vegatation_17",
+            "type": "Vegatation_04",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 41.6687,
+                "y": 322.192,
+                "z": 57.1133
+            },
+            "id": "Vegatation_17"
+        },
+        {
+            "name": "Vegatation_18",
+            "type": "Vegatation_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 36.2983,
+                "y": 320.631,
+                "z": 67.4788
+            },
+            "id": "Vegatation_18"
+        },
+        {
+            "name": "Vegatation_19",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 36.9994,
+                "y": 318.675,
+                "z": 72.7967
+            },
+            "id": "Vegatation_19"
+        },
+        {
+            "name": "Vegatation_20",
+            "type": "Vegatation_04",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 30.2267,
+                "y": 320.532,
+                "z": 83.7284
+            },
+            "id": "Vegatation_20"
+        },
+        {
+            "name": "Vegatation_21",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 27.9747,
+                "y": 318.018,
+                "z": 92.1287
+            },
+            "id": "Vegatation_21"
+        },
+        {
+            "name": "Vegatation_22",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 22.7948,
+                "y": 319.871,
+                "z": 98.8794
+            },
+            "id": "Vegatation_22"
+        },
+        {
+            "name": "Vegatation_23",
+            "type": "Vegatation_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 18.7696,
+                "y": 318.913,
+                "z": 110.484
+            },
+            "id": "Vegatation_23"
+        },
+        {
+            "name": "Vegatation_24",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 19.3805,
+                "y": 315.65,
+                "z": 114.585
+            },
+            "id": "Vegatation_24"
+        },
+        {
+            "name": "Vegatation_25",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 14.7573,
+                "y": 316.843,
+                "z": 122.524
+            },
+            "id": "Vegatation_25"
+        },
+        {
+            "name": "Vegatation_26",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 5.19744,
+                "y": 317.171,
+                "z": 126.802
+            },
+            "id": "Vegatation_26"
+        },
+        {
+            "name": "Vegatation_27",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -6.01885,
+                "y": 318.694,
+                "z": 118.266
+            },
+            "id": "Vegatation_27"
+        },
+        {
+            "name": "Vegatation_28",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -16.4221,
+                "y": 318.163,
+                "z": 111.474
+            },
+            "id": "Vegatation_28"
+        },
+        {
+            "name": "Vegatation_29",
+            "type": "Vegatation_04",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -26.0659,
+                "y": 316.443,
+                "z": 112.56
+            },
+            "id": "Vegatation_29"
+        },
+        {
+            "name": "Vegatation_30",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -31.8727,
+                "y": 317.952,
+                "z": 105.718
+            },
+            "id": "Vegatation_30"
+        },
+        {
+            "name": "Vegatation_31",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -43.1458,
+                "y": 318.337,
+                "z": 100.894
+            },
+            "id": "Vegatation_31"
+        },
+        {
+            "name": "Vegatation_32",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -49.8359,
+                "y": 319.321,
+                "z": 95.6456
+            },
+            "id": "Vegatation_32"
+        },
+        {
+            "name": "Vegatation_33",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -58.6439,
+                "y": 319.653,
+                "z": 92.1337
+            },
+            "id": "Vegatation_33"
+        },
+        {
+            "name": "Vegatation_34",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -67.3708,
+                "y": 319.656,
+                "z": 88.6531
+            },
+            "id": "Vegatation_34"
+        },
+        {
+            "name": "Vegatation_35",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -73.5069,
+                "y": 319.671,
+                "z": 83.6833
+            },
+            "id": "Vegatation_35"
+        },
+        {
+            "name": "Vegatation_36",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -81.7784,
+                "y": 320.373,
+                "z": 78.9137
+            },
+            "id": "Vegatation_36"
+        },
+        {
+            "name": "Vegatation_37",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -84.4551,
+                "y": 320.782,
+                "z": 70.149
+            },
+            "id": "Vegatation_37"
+        },
+        {
+            "name": "Vegatation_38",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -82.426,
+                "y": 320.924,
+                "z": 67.4358
+            },
+            "id": "Vegatation_38"
+        },
+        {
+            "name": "Vegatation_39",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -80.3481,
+                "y": 321.266,
+                "z": 62.138
+            },
+            "id": "Vegatation_39"
+        },
+        {
+            "name": "Vegatation_40",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -78.0899,
+                "y": 321.836,
+                "z": 58.9771
+            },
+            "id": "Vegatation_40"
+        },
+        {
+            "name": "Vegatation_41",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -75.8418,
+                "y": 321.161,
+                "z": 53.3732
+            },
+            "id": "Vegatation_41"
+        },
+        {
+            "name": "Vegatation_42",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -72.9239,
+                "y": 323.212,
+                "z": 49.5685
+            },
+            "id": "Vegatation_42"
+        },
+        {
+            "name": "Vegatation_43",
+            "type": "Vegatation_05",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -73.1208,
+                "y": 323.085,
+                "z": 44.1465
+            },
+            "id": "Vegatation_43"
+        },
+        {
+            "name": "Vegatation_44",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -68.1354,
+                "y": 323.083,
+                "z": 38.4397
+            },
+            "id": "Vegatation_44"
+        },
+        {
+            "name": "Vegatation_45",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -65.434,
+                "y": 323.133,
+                "z": 37.1833
+            },
+            "id": "Vegatation_45"
+        },
+        {
+            "name": "Vegatation_46",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -62.4772,
+                "y": 323.893,
+                "z": 30.6801
+            },
+            "id": "Vegatation_46"
+        },
+        {
+            "name": "Vegatation_47",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -60.2429,
+                "y": 324.729,
+                "z": 27.0321
+            },
+            "id": "Vegatation_47"
+        },
+        {
+            "name": "Vegatation_48",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -58.6746,
+                "y": 323.419,
+                "z": 20.5566
+            },
+            "id": "Vegatation_48"
+        },
+        {
+            "name": "Vegatation_49",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -56.3255,
+                "y": 322.967,
+                "z": 17.9792
+            },
+            "id": "Vegatation_49"
+        },
+        {
+            "name": "Vegatation_50",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -55.7909,
+                "y": 322.893,
+                "z": 15.7743
+            },
+            "id": "Vegatation_50"
+        },
+        {
+            "name": "Vegatation_51",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -54.5453,
+                "y": 322.048,
+                "z": 13.5807
+            },
+            "id": "Vegatation_51"
+        },
+        {
+            "name": "Vegatation_52",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -53.5425,
+                "y": 323.018,
+                "z": 10.2847
+            },
+            "id": "Vegatation_52"
+        },
+        {
+            "name": "Vegatation_53",
+            "type": "Vegatation_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -52.7447,
+                "y": 322.722,
+                "z": 5.83904
+            },
+            "id": "Vegatation_53"
+        },
+        {
+            "name": "Vegatation_54",
+            "type": "Vegatation_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -34.36,
+                "y": 324.31,
+                "z": -5.03017
+            },
+            "id": "Vegatation_54"
+        },
+        {
+            "name": "Vegatation_55",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -27.0571,
+                "y": 324.867,
+                "z": -3.1472
+            },
+            "id": "Vegatation_55"
+        },
+        {
+            "name": "Vegatation_56",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -23.1004,
+                "y": 325.222,
+                "z": -2.94601
+            },
+            "id": "Vegatation_56"
+        },
+        {
+            "name": "Vegatation_57",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -18.0252,
+                "y": 325.415,
+                "z": 0.47063
+            },
+            "id": "Vegatation_57"
+        },
+        {
+            "name": "Vegatation_58",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 2.33035,
+                "y": 323.698,
+                "z": 12.0341
+            },
+            "id": "Vegatation_58"
+        },
+        {
+            "name": "Vegatation_59",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 8.04129,
+                "y": 323.946,
+                "z": 16.7886
+            },
+            "id": "Vegatation_59"
+        },
+        {
+            "name": "Vegatation_60",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -20.0963,
+                "y": 332.812,
+                "z": 43.2009
+            },
+            "id": "Vegatation_60"
+        },
+        {
+            "name": "Vegatation_61",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -20.3996,
+                "y": 332.837,
+                "z": 46.6456
+            },
+            "id": "Vegatation_61"
+        },
+        {
+            "name": "Vegatation_62",
+            "type": "Vegatation_06",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -30.7867,
+                "y": 333.109,
+                "z": 39.4795
+            },
+            "id": "Vegatation_62"
+        },
+        {
+            "name": "Vegatation_63",
+            "type": "Vegatation_04",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -36.1537,
+                "y": 332.096,
+                "z": 34.4988
+            },
+            "id": "Vegatation_63"
+        },
+        {
+            "name": "Vegatation_64",
+            "type": "Vegatation_03",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -28.9359,
+                "y": 332.55,
+                "z": 35.3284
+            },
+            "id": "Vegatation_64"
+        },
+        {
+            "name": "Vegatation_65",
+            "type": "Vegatation_02",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -38.8696,
+                "y": 332.146,
+                "z": 38.6851
+            },
+            "id": "Vegatation_65"
+        },
+        {
+            "name": "VEH_Marauder",
+            "type": "VEH_Marauder",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": -35.6433,
+                "y": 323.213,
+                "z": 35.7089
+            },
+            "id": "VEH_Marauder"
+        },
+        {
+            "name": "VEH_Flyer60",
+            "type": "VEH_Flyer60",
+            "right": {
+                "x": -0.459156,
+                "y": -0.00213441,
+                "z": 0.888353
+            },
+            "up": {
+                "x": -0.00323744,
+                "y": 0.999994,
+                "z": 0.000729336
+            },
+            "front": {
+                "x": -0.88835,
+                "y": -0.00254111,
+                "z": -0.459161
+            },
+            "position": {
+                "x": -47.0948,
+                "y": 322.752,
+                "z": 48.9266
+            },
+            "id": "VEH_Flyer60"
+        },
+        {
+            "name": "TankPlasticIBC_01",
+            "type": "TankPlasticIBC_01",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 2.05911,
+                "y": 323.114,
+                "z": 49.1316
+            },
+            "id": "TankPlasticIBC_01"
+        }
+    ],
+    "Static": [
+        {
+            "name": "MP_Contaminated_Terrain",
+            "metadata/_edit_lock_": true,
+            "type": "MP_Contaminated_Terrain",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "id": "Static/MP_Contaminated_Terrain"
+        },
+        {
+            "name": "MP_Contaminated_Assets",
+            "metadata/_edit_lock_": true,
+            "type": "MP_Contaminated_Assets",
+            "right": {
+                "x": 1,
+                "y": 0,
+                "z": 0
+            },
+            "up": {
+                "x": 0,
+                "y": 1,
+                "z": 0
+            },
+            "front": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "id": "Static/MP_Contaminated_Assets"
+        }
+    ]
+}
