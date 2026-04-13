@@ -1,0 +1,416 @@
+[gd_scene format=3 uid="uid://djf14n60mcgty"]
+
+[ext_resource type="PackedScene" path="res://objects/gameplay/common/HQ_PlayerSpawner.tscn" id="1_d6cgq"]
+[ext_resource type="PackedScene" uid="uid://jv31so3xcr7p" path="res://addons/bf_portal/portal_tools/types/PolygonVolume/PolygonVolume.tscn" id="2_q8juq"]
+[ext_resource type="PackedScene" path="res://objects/entities/SpawnPoint.tscn" id="3_fr1r7"]
+[ext_resource type="PackedScene" path="res://objects/gameplay/common/CombatArea.tscn" id="4_s2wtr"]
+[ext_resource type="PackedScene" path="res://objects/gameplay/common/DeployCam.tscn" id="5_pjh2v"]
+[ext_resource type="PackedScene" path="res://static/MP_Capstone_Terrain.tscn" id="6_mrj8l"]
+[ext_resource type="PackedScene" path="res://static/MP_Capstone_Assets.tscn" id="7_7miql"]
+[ext_resource type="PackedScene" path="res://objects/uncategorized/Guard_Tower.tscn" id="8_lwkwr"]
+[ext_resource type="PackedScene" path="res://objects/uncategorized/Guard_Tower_RoofStandalone.tscn" id="9_25q6n"]
+[ext_resource type="PackedScene" path="res://objects/props/NASA01_D_UNGROUPED.tscn" id="10_utpqy"]
+[ext_resource type="PackedScene" path="res://objects/props/NASA01_E_UNGROUPED.tscn" id="11_kkeou"]
+[ext_resource type="PackedScene" path="res://objects/nature/OliveRussian_01_M.tscn" id="12_q2sv8"]
+[ext_resource type="PackedScene" path="res://objects/nature/OliveRussian_01_L_B.tscn" id="13_lhr36"]
+
+[node name="MP_Capstone" type="Node3D" unique_id=1781464510]
+
+[node name="TEAM_1_HQ" parent="." unique_id=481090797 node_paths=PackedStringArray("HQArea", "InfantrySpawns") instance=ExtResource("1_d6cgq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 233.997, 144.57, 302.073)
+AltTeam = 0
+ObjId = 1
+HQArea = NodePath("HQ_Team1")
+InfantrySpawns = [NodePath("SpawnPoint_1_1"), NodePath("SpawnPoint_1_2"), NodePath("SpawnPoint_1_3"), NodePath("SpawnPoint_1_4")]
+
+[node name="HQ_Team1" parent="TEAM_1_HQ" unique_id=52327284 instance=ExtResource("2_q8juq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+points = PackedVector2Array(5, 5, 5, -5, -5, -5, -5, 5)
+
+[node name="SpawnPoint_1_1" parent="TEAM_1_HQ" unique_id=924229908 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.0152535, 0, -0.999884, 0, 1, 0, 0.999884, 0, -0.0152535, 0, 0, -3)
+
+[node name="SpawnPoint_1_2" parent="TEAM_1_HQ" unique_id=1711105367 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.228147, 0, -0.973627, 0, 1, 0, 0.973627, 0, -0.228147, 3, 0, 0)
+
+[node name="SpawnPoint_1_3" parent="TEAM_1_HQ" unique_id=1426221403 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.462399, 0, -0.886672, 0, 1, 0, 0.886672, 0, -0.462399, -3, 0, 0)
+
+[node name="SpawnPoint_1_4" parent="TEAM_1_HQ" unique_id=2094049363 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.0841819, 0, -0.99645, 0, 1, 0, 0.99645, 0, 0.0841819, 0, 0, 3)
+
+[node name="TEAM_1_HQ3" parent="." unique_id=1522507553 node_paths=PackedStringArray("HQArea", "InfantrySpawns") instance=ExtResource("1_d6cgq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 247.383, 144.798, 338.933)
+AltTeam = 0
+ObjId = 2
+HQArea = NodePath("HQ_Team1")
+InfantrySpawns = [NodePath("SpawnPoint_1_1"), NodePath("SpawnPoint_1_2"), NodePath("SpawnPoint_1_3"), NodePath("SpawnPoint_1_4")]
+
+[node name="HQ_Team1" parent="TEAM_1_HQ3" unique_id=1593380076 instance=ExtResource("2_q8juq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+points = PackedVector2Array(5, 5, 5, -5, -5, -5, -5, 5)
+
+[node name="SpawnPoint_1_1" parent="TEAM_1_HQ3" unique_id=1699139097 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.0152535, 0, -0.999884, 0, 1, 0, 0.999884, 0, -0.0152535, 0, 0, -3)
+
+[node name="SpawnPoint_1_2" parent="TEAM_1_HQ3" unique_id=249566414 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.228147, 0, -0.973627, 0, 1, 0, 0.973627, 0, -0.228147, 3, 0, 0)
+
+[node name="SpawnPoint_1_3" parent="TEAM_1_HQ3" unique_id=1151997511 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.67613, 0, -0.736782, 0, 1, 0, 0.736782, 0, -0.67613, -3, 0, 0)
+
+[node name="SpawnPoint_1_4" parent="TEAM_1_HQ3" unique_id=760800200 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.0841819, 0, -0.99645, 0, 1, 0, 0.99645, 0, 0.0841819, 0, 0, 3)
+
+[node name="TEAM_1_HQ2" parent="." unique_id=1246446663 node_paths=PackedStringArray("HQArea", "InfantrySpawns") instance=ExtResource("1_d6cgq")]
+transform = Transform3D(0.999291, 0, 0.0376553, 0, 1, 0, -0.0376553, 0, 0.999291, 202.829, 162.694, 384.994)
+AltTeam = 0
+ObjId = 3
+HQArea = NodePath("HQ_Team1")
+InfantrySpawns = [NodePath("SpawnPoint_1_1"), NodePath("SpawnPoint_1_2"), NodePath("SpawnPoint_1_3"), NodePath("SpawnPoint_1_4")]
+
+[node name="HQ_Team1" parent="TEAM_1_HQ2" unique_id=1403066988 instance=ExtResource("2_q8juq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+points = PackedVector2Array(5, 5, 5, -5, -5, -5, -5, 5)
+
+[node name="SpawnPoint_1_1" parent="TEAM_1_HQ2" unique_id=1495340506 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.0152535, 0, -0.999884, 0, 1, 0, 0.999884, 0, -0.0152535, 0, 0, -3)
+
+[node name="SpawnPoint_1_2" parent="TEAM_1_HQ2" unique_id=33942565 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.0316198, 0, -0.9995, 0, 1, 0, 0.9995, 0, 0.0316198, 3, 0, 0)
+
+[node name="SpawnPoint_1_3" parent="TEAM_1_HQ2" unique_id=1862636195 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.042887, 0, -0.99908, 0, 1, 0, 0.99908, 0, 0.042887, -3, 0, 0)
+
+[node name="SpawnPoint_1_4" parent="TEAM_1_HQ2" unique_id=304146417 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.0841819, 0, -0.99645, 0, 1, 0, 0.99645, 0, 0.0841819, 0, 0, 3)
+
+[node name="TEAM_2_HQ" parent="." unique_id=840388248 node_paths=PackedStringArray("HQArea", "InfantrySpawns") instance=ExtResource("1_d6cgq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 141.436, 171.338, 360.531)
+Team = 2
+AltTeam = 0
+ObjId = 4
+HQArea = NodePath("HQ_Team2")
+InfantrySpawns = [NodePath("SpawnPoint_2_1"), NodePath("SpawnPoint_2_2"), NodePath("SpawnPoint_2_3"), NodePath("SpawnPoint_2_4")]
+
+[node name="HQ_Team2" parent="TEAM_2_HQ" unique_id=949321543 instance=ExtResource("2_q8juq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+points = PackedVector2Array(5, 5, 5, -5, -5, -5, -5, 5)
+
+[node name="SpawnPoint_2_1" parent="TEAM_2_HQ" unique_id=786660291 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.87795, 0, -0.478754, 0, 1, 0, 0.478754, 0, 0.87795, 0, 0, -3)
+
+[node name="SpawnPoint_2_2" parent="TEAM_2_HQ" unique_id=156131519 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.997604, 0, 0.0691822, 0, 1, 0, -0.0691822, 0, -0.997604, 3, 0, 0)
+
+[node name="SpawnPoint_2_3" parent="TEAM_2_HQ" unique_id=1766702498 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.162758, 0, 0.986666, 0, 1, 0, -0.986666, 0, 0.162758, -3, 0, 0)
+
+[node name="SpawnPoint_2_4" parent="TEAM_2_HQ" unique_id=547203596 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.165771, 0, -0.986164, 0, 1, 0, 0.986164, 0, -0.165771, 0, 0, 3)
+
+[node name="TEAM_2_HQ2" parent="." unique_id=1984504075 node_paths=PackedStringArray("HQArea", "InfantrySpawns") instance=ExtResource("1_d6cgq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 126.437, 169.382, 340.444)
+Team = 2
+AltTeam = 0
+ObjId = 5
+HQArea = NodePath("HQ_Team2")
+InfantrySpawns = [NodePath("SpawnPoint_2_1"), NodePath("SpawnPoint_2_2"), NodePath("SpawnPoint_2_3"), NodePath("SpawnPoint_2_4")]
+
+[node name="HQ_Team2" parent="TEAM_2_HQ2" unique_id=447330544 instance=ExtResource("2_q8juq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+points = PackedVector2Array(5, 5, 5, -5, -5, -5, -5, 5)
+
+[node name="SpawnPoint_2_1" parent="TEAM_2_HQ2" unique_id=1859642706 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.87795, 0, -0.478754, 0, 1, 0, 0.478754, 0, 0.87795, 0, 0, -2.34464)
+
+[node name="SpawnPoint_2_2" parent="TEAM_2_HQ2" unique_id=147115332 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.997604, 0, 0.0691822, 0, 1, 0, -0.0691822, 0, -0.997604, -2.75536, -0.0205231, -2.23322)
+
+[node name="SpawnPoint_2_3" parent="TEAM_2_HQ2" unique_id=1335481415 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.162758, 0, 0.986666, 0, 1, 0, -0.986666, 0, 0.162758, -3, 0, 0)
+
+[node name="SpawnPoint_2_4" parent="TEAM_2_HQ2" unique_id=1746274397 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.165771, 0, -0.986164, 0, 1, 0, 0.986164, 0, -0.165771, 0, 0.411591, 3)
+
+[node name="TEAM_2_HQ3" parent="." unique_id=906102428 node_paths=PackedStringArray("HQArea", "InfantrySpawns") instance=ExtResource("1_d6cgq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 140.437, 165.382, 384.444)
+Team = 2
+AltTeam = 0
+ObjId = 6
+HQArea = NodePath("HQ_Team2")
+InfantrySpawns = [NodePath("SpawnPoint_2_1"), NodePath("SpawnPoint_2_2"), NodePath("SpawnPoint_2_3"), NodePath("SpawnPoint_2_4")]
+
+[node name="HQ_Team2" parent="TEAM_2_HQ3" unique_id=1093955977 instance=ExtResource("2_q8juq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+points = PackedVector2Array(5, 5, 5, -5, -5, -5, -5, 5)
+
+[node name="SpawnPoint_2_1" parent="TEAM_2_HQ3" unique_id=2004363686 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.87795, 0, -0.478754, 0, 1, 0, 0.478754, 0, 0.87795, 0, 1, -2.34464)
+
+[node name="SpawnPoint_2_2" parent="TEAM_2_HQ3" unique_id=1784634820 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.997604, 0, 0.0691822, 0, 1, 0, -0.0691822, 0, -0.997604, -2.75537, -0.0205231, -2.23322)
+
+[node name="SpawnPoint_2_3" parent="TEAM_2_HQ3" unique_id=1891454110 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(0.162758, 0, 0.986666, 0, 1, 0, -0.986666, 0, 0.162758, -3, 0, 0)
+
+[node name="SpawnPoint_2_4" parent="TEAM_2_HQ3" unique_id=830909078 instance=ExtResource("3_fr1r7")]
+transform = Transform3D(-0.165771, 0, -0.986164, 0, 1, 0, 0.986164, 0, -0.165771, 0, -0.588409, 3)
+
+[node name="CombatArea" parent="." unique_id=2115503920 node_paths=PackedStringArray("CombatVolume") instance=ExtResource("4_s2wtr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1458.32, 33.5003, 0)
+CombatVolume = NodePath("CombatVolume")
+
+[node name="CombatVolume" parent="CombatArea" unique_id=1081678315 instance=ExtResource("2_q8juq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1405.39, 96.838, 256.698)
+points = PackedVector2Array(64.2626, 151.676, 218.335, 130.263, 200.105, 26.3559, 47.5214, 46.9236)
+height = 200.0
+color = Color(0.94089, 0.158416, 0.468851, 0.42)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=957845718]
+transform = Transform3D(1, 0, 0, 0, 0.101056, 0.994881, 0, -0.994881, 0.101056, 70.5201, 368.595, 119.788)
+
+[node name="DeployCam" parent="Camera3D" unique_id=1367711489 instance=ExtResource("5_pjh2v")]
+
+[node name="Static" type="Node3D" parent="." unique_id=1100804239]
+
+[node name="MP_Capstone_Terrain" parent="Static" unique_id=1329065015 instance=ExtResource("6_mrj8l")]
+metadata/_edit_lock_ = true
+
+[node name="MP_Capstone_Assets" parent="Static" unique_id=1499979758 instance=ExtResource("7_7miql")]
+metadata/_edit_lock_ = true
+
+[node name="Guard_Tower" parent="." unique_id=1427468403 instance=ExtResource("8_lwkwr")]
+transform = Transform3D(-0.998391, 0, -0.0567103, 0, 1, 0, 0.0567103, 0, -0.998391, 116.966, 167.81, 348.612)
+
+[node name="Guard_Tower2" parent="." unique_id=610025410 instance=ExtResource("8_lwkwr")]
+transform = Transform3D(-0.989083, 0, -0.147361, 0, 1, 0, 0.147361, 0, -0.989083, 157.031, 161.582, 391.456)
+
+[node name="Guard_Tower3" parent="." unique_id=507251988 instance=ExtResource("8_lwkwr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 188.63, 162.318, 388.538)
+
+[node name="Guard_Tower4" parent="." unique_id=801097786 instance=ExtResource("8_lwkwr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 215.288, 160.834, 352.154)
+
+[node name="Guard_Tower5" parent="." unique_id=554197448 instance=ExtResource("8_lwkwr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 241.779, 143.838, 327.288)
+
+[node name="Guard_Tower6" parent="." unique_id=2088111169 instance=ExtResource("8_lwkwr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 230.156, 143.917, 313.651)
+
+[node name="Guard_Tower_RoofStandalone" parent="." unique_id=1376827436 instance=ExtResource("9_25q6n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 216.35, 148.669, 295.41)
+
+[node name="Guard_Tower7" parent="." unique_id=529560810 instance=ExtResource("8_lwkwr")]
+transform = Transform3D(0.0277995, 0, 0.999614, 0, 1, 0, -0.999614, 0, 0.0277995, 193.255, 164.625, 309.456)
+
+[node name="Guard_Tower8" parent="." unique_id=1200088324 instance=ExtResource("8_lwkwr")]
+transform = Transform3D(-0.112163, 0, 0.99369, 0, 1, 0, -0.99369, 0, -0.112163, 157.059, 166.082, 311.238)
+
+[node name="Guard_Tower9" parent="." unique_id=2132115594 instance=ExtResource("8_lwkwr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120.811, 164.038, 311.544)
+
+[node name="NASA01_D_UNGROUPED" parent="." unique_id=829329623 instance=ExtResource("10_utpqy")]
+transform = Transform3D(0.0685133, 0.0612576, -0.995768, -0.00420486, 0.998122, 0.0611131, 0.997642, 0, 0.0686422, 108.813, 165.308, 319.285)
+
+[node name="NASA01_E_UNGROUPED" parent="." unique_id=960427191 instance=ExtResource("11_kkeou")]
+transform = Transform3D(0.128825, 0.0680153, -0.989332, -0.00878243, 0.997684, 0.0674459, 0.991628, 0, 0.129124, 119.211, 166.739, 374.262)
+
+[node name="OliveRussian_01_M" parent="." unique_id=1769405190 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 188.718, 170.726, 366.408)
+
+[node name="OliveRussian_01_M2" parent="." unique_id=684026847 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 183.083, 170.279, 368.902)
+
+[node name="OliveRussian_01_M3" parent="." unique_id=1479583913 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 184.464, 170.066, 368.902)
+
+[node name="OliveRussian_01_M4" parent="." unique_id=274858131 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 186.242, 170.383, 367.29)
+
+[node name="OliveRussian_01_M5" parent="." unique_id=30849733 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 186.242, 170.333, 368.72)
+
+[node name="OliveRussian_01_M6" parent="." unique_id=337868700 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 188.02, 170.383, 368.72)
+
+[node name="OliveRussian_01_M7" parent="." unique_id=1929839015 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.911769, 0, -0.410703, 0, 1, 0, 0.410703, 0, 0.911769, 188.02, 170.383, 367.892)
+
+[node name="OliveRussian_01_M8" parent="." unique_id=1542253643 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.911769, 0, -0.410703, 0, 1, 0, 0.410703, 0, 0.911769, 181.343, 170.603, 367.892)
+
+[node name="OliveRussian_01_M9" parent="." unique_id=2095747587 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.0801467, 0, -0.996783, 0, 1, 0, 0.996783, 0, 0.0801467, 181.343, 169.996, 370.425)
+
+[node name="OliveRussian_01_M10" parent="." unique_id=1823478725 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.0801467, 0, -0.996783, 0, 1, 0, 0.996783, 0, 0.0801467, 179.868, 170.17, 370.425)
+
+[node name="OliveRussian_01_M11" parent="." unique_id=116750243 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.777431, 0, -0.628968, 0, 1, 0, 0.628968, 0, 0.777431, 179.868, 170.356, 368.365)
+
+[node name="OliveRussian_01_M12" parent="." unique_id=1729135155 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.777431, 0, -0.628968, 0, 1, 0, 0.628968, 0, 0.777431, 177.961, 170.555, 368.365)
+
+[node name="OliveRussian_01_L_B" parent="." unique_id=2099606842 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 167.714, 173.294, 355.528)
+
+[node name="OliveRussian_01_L_B2" parent="." unique_id=1840450571 instance=ExtResource("13_lhr36")]
+transform = Transform3D(0.56981, 0, 0.821776, 0, 1, 0, -0.821776, 0, 0.56981, 170.576, 173.44, 355.528)
+
+[node name="OliveRussian_01_L_B3" parent="." unique_id=471942711 instance=ExtResource("13_lhr36")]
+transform = Transform3D(0.76112, 0, 0.648611, 0, 1, 0, -0.648611, 0, 0.76112, 172.711, 173.497, 355.528)
+
+[node name="OliveRussian_01_L_B4" parent="." unique_id=150138556 instance=ExtResource("13_lhr36")]
+transform = Transform3D(0.76112, 0, 0.648611, 0, 1, 0, -0.648611, 0, 0.76112, 172.711, 173.477, 351.844)
+
+[node name="OliveRussian_01_L_B5" parent="." unique_id=1827814841 instance=ExtResource("13_lhr36")]
+transform = Transform3D(0.76112, 0, 0.648611, 0, 1, 0, -0.648611, 0, 0.76112, 163.587, 172.757, 356.313)
+
+[node name="OliveRussian_01_L_B6" parent="." unique_id=1228099262 instance=ExtResource("13_lhr36")]
+transform = Transform3D(0.76112, 0, 0.648611, 0, 1, 0, -0.648611, 0, 0.76112, 163.587, 173.651, 351.628)
+
+[node name="OliveRussian_01_M13" parent="." unique_id=1689453676 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 222.3, 144.452, 303.973)
+
+[node name="OliveRussian_01_M14" parent="." unique_id=66623013 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 221.326, 144.452, 302.644)
+
+[node name="OliveRussian_01_M15" parent="." unique_id=535704582 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.909389, 0, 0.415947, 0, 1, 0, -0.415947, 0, 0.909389, 222.958, 144.452, 302.644)
+
+[node name="OliveRussian_01_M16" parent="." unique_id=1128466350 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.52028, 0, 0.853996, 0, 1, 0, -0.853996, 0, 0.52028, 222.958, 144.452, 304.652)
+
+[node name="OliveRussian_01_M17" parent="." unique_id=805341583 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.52028, 0, 0.853996, 0, 1, 0, -0.853996, 0, 0.52028, 222.958, 144.452, 306.224)
+
+[node name="OliveRussian_01_M18" parent="." unique_id=39802286 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.495762, 0, 0.868459, 0, 1, 0, -0.868459, 0, -0.495762, 223.907, 144.279, 306.224)
+
+[node name="OliveRussian_01_M19" parent="." unique_id=1424495461 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.495762, 0, 0.868459, 0, 1, 0, -0.868459, 0, -0.495762, 223.907, 144.125, 304.712)
+
+[node name="OliveRussian_01_M20" parent="." unique_id=549460978 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.495762, 0, 0.868459, 0, 1, 0, -0.868459, 0, -0.495762, 223.907, 144.125, 308.213)
+
+[node name="OliveRussian_01_M21" parent="." unique_id=965438549 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.97989, 0, 0.199539, 0, 1, 0, -0.199539, 0, -0.97989, 224.601, 144.125, 308.213)
+
+[node name="OliveRussian_01_M22" parent="." unique_id=1943855430 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.97989, 0, 0.199539, 0, 1, 0, -0.199539, 0, -0.97989, 224.601, 144.125, 311.592)
+
+[node name="OliveRussian_01_M23" parent="." unique_id=1685702470 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 253.21, 143.602, 312.213)
+
+[node name="OliveRussian_01_M24" parent="." unique_id=1491372916 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.859228, 0, 0.511593, 0, 1, 0, -0.511593, 0, 0.859228, 253.21, 143.61, 310.002)
+
+[node name="OliveRussian_01_M25" parent="." unique_id=704387024 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.96026, 0, -0.279108, 0, 1, 0, 0.279108, 0, 0.96026, 253.21, 143.424, 307.891)
+
+[node name="OliveRussian_01_M26" parent="." unique_id=858218492 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.645231, 0, -0.763988, 0, 1, 0, 0.763988, 0, 0.645231, 253.21, 143.436, 304.891)
+
+[node name="OliveRussian_01_M27" parent="." unique_id=772627397 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.686364, 0, 0.727258, 0, 1, 0, -0.727258, 0, -0.686364, 253.21, 143.749, 302.251)
+
+[node name="OliveRussian_01_M28" parent="." unique_id=2108302928 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.219949, 0, 0.975511, 0, 1, 0, -0.975511, 0, 0.219949, 253.21, 143.749, 299.271)
+
+[node name="OliveRussian_01_M29" parent="." unique_id=638340428 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.219949, 0, 0.975511, 0, 1, 0, -0.975511, 0, 0.219949, 251.431, 143.379, 299.271)
+
+[node name="OliveRussian_01_M30" parent="." unique_id=1828890792 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.0928049, 0, 0.995684, 0, 1, 0, -0.995684, 0, -0.0928049, 249.649, 143.749, 299.271)
+
+[node name="OliveRussian_01_M31" parent="." unique_id=1363142838 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.0928049, 0, 0.995684, 0, 1, 0, -0.995684, 0, -0.0928049, 249.649, 143.541, 303.033)
+
+[node name="OliveRussian_01_M32" parent="." unique_id=2038579154 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.0928049, 0, 0.995684, 0, 1, 0, -0.995684, 0, -0.0928049, 250.893, 143.469, 303.033)
+
+[node name="OliveRussian_01_M33" parent="." unique_id=1494535345 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 245.023, 144.002, 293.367)
+
+[node name="OliveRussian_01_M34" parent="." unique_id=883942394 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 245.023, 144.188, 292.683)
+
+[node name="OliveRussian_01_M35" parent="." unique_id=1162650291 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.737619, 0, 0.675217, 0, 1, 0, -0.675217, 0, 0.737619, 245.023, 142.326, 294.843)
+
+[node name="OliveRussian_01_M36" parent="." unique_id=1651492198 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.334514, 0, 0.942391, 0, 1, 0, -0.942391, 0, 0.334514, 245.023, 144.285, 295.88)
+
+[node name="OliveRussian_01_M37" parent="." unique_id=705883084 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.334514, 0, 0.942391, 0, 1, 0, -0.942391, 0, 0.334514, 245.023, 144.008, 288.243)
+
+[node name="OliveRussian_01_M38" parent="." unique_id=1733755609 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.758669, 0, 0.651476, 0, 1, 0, -0.651476, 0, -0.758669, 245.023, 144.078, 290.02)
+
+[node name="OliveRussian_01_M39" parent="." unique_id=689718834 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.758669, 0, 0.651476, 0, 1, 0, -0.651476, 0, -0.758669, 245.023, 144.48, 286.888)
+
+[node name="OliveRussian_01_M40" parent="." unique_id=1965886789 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(-0.758669, 0, 0.651476, 0, 1, 0, -0.651476, 0, -0.758669, 242.256, 144.418, 286.888)
+
+[node name="OliveRussian_01_M41" parent="." unique_id=886626353 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 247.444, 145.378, 350.009)
+
+[node name="OliveRussian_01_M42" parent="." unique_id=1379502766 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 247.444, 145.452, 354.321)
+
+[node name="OliveRussian_01_M43" parent="." unique_id=1936928035 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.922424, 0, 0.38618, 0, 1, 0, -0.38618, 0, 0.922424, 247.444, 145.414, 352.753)
+
+[node name="OliveRussian_01_M44" parent="." unique_id=1802713286 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.901848, 0, -0.432054, 0, 1, 0, 0.432054, 0, 0.901848, 247.444, 145.685, 351.532)
+
+[node name="OliveRussian_01_M45" parent="." unique_id=1185590174 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.901848, 0, -0.432054, 0, 1, 0, 0.432054, 0, 0.901848, 245.258, 145.425, 348.243)
+
+[node name="OliveRussian_01_M46" parent="." unique_id=1310525488 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.599122, 0, -0.800658, 0, 1, 0, 0.800658, 0, 0.599122, 246.688, 145.457, 346.353)
+
+[node name="OliveRussian_01_M47" parent="." unique_id=342205907 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 207.522, 167.808, 337.461)
+
+[node name="OliveRussian_01_M48" parent="." unique_id=1592110662 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.931501, 0, -0.363739, 0, 1, 0, 0.363739, 0, 0.931501, 207.522, 167.808, 339.158)
+
+[node name="OliveRussian_01_M49" parent="." unique_id=1770405191 instance=ExtResource("12_q2sv8")]
+transform = Transform3D(0.931501, 0, -0.363739, 0, 1, 0, 0.363739, 0, 0.931501, 204.282, 168.206, 341.665)
+
+[node name="OliveRussian_01_L_B7" parent="." unique_id=1228955267 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 187.813, 175.366, 343.057)
+metadata/_edit_group_ = true
+
+[node name="OliveRussian_01_L_B8" parent="." unique_id=904482562 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 142.997, 164.848, 305.294)
+
+[node name="OliveRussian_01_L_B9" parent="." unique_id=132506574 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 133.893, 170.745, 348.836)
+
+[node name="OliveRussian_01_L_B10" parent="." unique_id=1038246326 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 128.138, 165.545, 380.314)
+
+[node name="OliveRussian_01_L_B11" parent="." unique_id=1912307032 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 170.649, 161.194, 395.189)
+
+[node name="OliveRussian_01_L_B12" parent="." unique_id=180472681 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 183.018, 161.354, 393.401)
+
+[node name="OliveRussian_01_L_B13" parent="." unique_id=1809185701 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 196.475, 160.012, 393.077)
+
+[node name="OliveRussian_01_L_B14" parent="." unique_id=326500620 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 215.877, 161.592, 386.403)
+
+[node name="OliveRussian_01_L_B15" parent="." unique_id=682535499 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 215.877, 161.592, 381.406)
+
+[node name="OliveRussian_01_L_B16" parent="." unique_id=1547185529 instance=ExtResource("13_lhr36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 228.1, 161.525, 390.89)
+
+[editable path="Static/MP_Capstone_Terrain"]
+[editable path="Static/MP_Capstone_Terrain/Mesh"]
