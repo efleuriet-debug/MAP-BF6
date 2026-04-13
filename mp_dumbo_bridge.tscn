@@ -1,0 +1,554 @@
+[gd_scene format=3 uid="uid://ckyyykvmyc863"]
+
+[ext_resource type="PackedScene" path="res://objects/Gameplay/Common/HQ_PlayerSpawner.tscn" id="1_3ji4r"]
+[ext_resource type="PackedScene" uid="uid://jv31so3xcr7p" path="res://addons/bf_portal/portal_tools/types/PolygonVolume/PolygonVolume.tscn" id="2_0eb71"]
+[ext_resource type="PackedScene" path="res://objects/entities/SpawnPoint.tscn" id="3_m2xda"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/SteelKeg_Pallet_01.tscn" id="4_4f32w"]
+[ext_resource type="PackedScene" path="res://objects/Gameplay/Common/CombatArea.tscn" id="4_wwq0p"]
+[ext_resource type="PackedScene" path="res://objects/Gameplay/Common/DeployCam.tscn" id="5_l8xl8"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Generic/Common/Props/StairsWoodPlatformRailing_01_256.tscn" id="5_vqtnt"]
+[ext_resource type="PackedScene" path="res://static/MP_Dumbo_Terrain.tscn" id="6_ypihf"]
+[ext_resource type="PackedScene" path="res://static/MP_Dumbo_Assets.tscn" id="7_fk2ug"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Props/StairsBasement_01_256x128.tscn" id="10_uqimf"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Props/StairsMetal_01.tscn" id="11_wcmbg"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Industrial/Props/ScissorLift_01.tscn" id="12_q3b4u"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Industrial/Architecture/WalkwayStair_256.tscn" id="13_7p00p"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Military/Architecture/SuppliesPack_01.tscn" id="14_slcg8"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/PalletWooden_01_128x128.tscn" id="15_7wg6v"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/PalletWoodenPile_01_D.tscn" id="16_xok3d"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Props/NASARADAR_Base_01.tscn" id="17_mmt1n"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Props/NASARADAR_01_UNGROUPED.tscn" id="18_0fd4n"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Props/NASARADAR_Radar_01.tscn" id="19_b51sa"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GM1083CargoTruck_01_Fuel.tscn" id="20_lu46o"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GM1083CargoTruck_01_Canopy_Cargo01.tscn" id="21_m1wge"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GM1083CargoTruck_01_Canopy.tscn" id="22_w1w80"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GM1083CargoTruck_01_Bed.tscn" id="23_fog5u"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Uncategorized/GFoodTruck_Open_01.tscn" id="24_r80pn"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GCarSedan_01_OpenDoors_D.tscn" id="25_7sbbw"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GCarSedan_01.tscn" id="26_3vhdp"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GCarCompact_01.tscn" id="27_urod3"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GCar4x4_01.tscn" id="28_odgpp"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GCarSUV_01.tscn" id="29_tpf1f"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GM1083CargoTruck_01_Canopy_Cargo03.tscn" id="30_1phxm"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Uncategorized/GTruckDelivery_01_Cargo01.tscn" id="31_ko2pn"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/MP_Dumbo/Uncategorized/GVanDeliveryUS_01_Open.tscn" id="32_pkwbx"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GCarCompact_01_OpenDoors.tscn" id="33_4qrxk"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Uncategorized/GMetroBus_01_Brooklyn.tscn" id="34_s44ge"]
+[ext_resource type="PackedScene" path="res://objects/Brooklyn/Shared/Uncategorized/GCarSUV_01_PoliceUSNY.tscn" id="35_jgmy5"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Uncategorized/GScooterClassic_01_Config_01.tscn" id="36_46pl4"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Common/Props/Forklift_01.tscn" id="37_bal3n"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Architecture/FoundationStairs_01_256x128_B.tscn" id="38_b51sa"]
+[ext_resource type="PackedScene" path="res://objects/Global/Props/FiringRange_NumberTwo_01.tscn" id="39_lu46o"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Industrial/Props/CrateWooden_02.tscn" id="40_m1wge"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Military/Architecture/CratePile_01.tscn" id="41_w1w80"]
+[ext_resource type="PackedScene" path="res://objects/Global/Generic/Common/Props/CommandPost_01_Drone_Props.tscn" id="42_fog5u"]
+[ext_resource type="PackedScene" path="res://objects/Global/Generic/Industrial/Architecture/WalkwayLadder_768.tscn" id="43_7sbbw"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Industrial/Props/AirfieldBlastBarrier_01.tscn" id="43_r80pn"]
+[ext_resource type="PackedScene" path="res://objects/Global/Generic/Industrial/Architecture/WalkwayLadder_768_NoDestruction.tscn" id="44_3vhdp"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Props/AlleyTrash_01.tscn" id="44_7sbbw"]
+[ext_resource type="PackedScene" path="res://objects/Global/Props/BarrierStoneBlock_01_A.tscn" id="45_3vhdp"]
+[ext_resource type="PackedScene" path="res://objects/Global/Props/BarrierStoneBlock_01_B.tscn" id="46_urod3"]
+[ext_resource type="PackedScene" path="res://objects/Global/Generic/Industrial/Props/ContainerStandard_01_1280.tscn" id="47_odgpp"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Industrial/Props/ContainerStandardOpenSidewall_01_640.tscn" id="48_tpf1f"]
+[ext_resource type="PackedScene" path="res://objects/Gameplay/Vehicles/VEH_Vector.tscn" id="49_m1wge"]
+[ext_resource type="PackedScene" path="res://objects/Gameplay/Vehicles/VEH_Flyer60.tscn" id="50_w1w80"]
+[ext_resource type="PackedScene" path="res://objects/Shared/Generic/Industrial/Props/WaterTank_01.tscn" id="51_w1w80"]
+
+[node name="MP_Dumbo" type="Node3D" unique_id=1330955968]
+
+[node name="TEAM_1_HQ" parent="." unique_id=20914045 node_paths=PackedStringArray("HQArea", "InfantrySpawns") instance=ExtResource("1_3ji4r")]
+transform = Transform3D(0.771147, 0, 0.63665706, 0, 1, 0, -0.63665706, 0, 0.771147, -133.7921, 87.8393, -541.75745)
+AltTeam = 0
+ObjId = 1
+HQArea = NodePath("HQ_Team1")
+InfantrySpawns = [NodePath("SpawnPoint_1_1"), NodePath("SpawnPoint_1_2"), NodePath("SpawnPoint_1_3"), NodePath("SpawnPoint_1_4")]
+
+[node name="HQ_Team1" parent="TEAM_1_HQ" unique_id=458475563 instance=ExtResource("2_0eb71")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.845337, 0)
+points = PackedVector2Array(5, 5, 5, -5, -5, -5, -5, 5)
+
+[node name="SpawnPoint_1_1" parent="TEAM_1_HQ" unique_id=617681765 instance=ExtResource("3_m2xda")]
+transform = Transform3D(0.999884, 0, -0.0152535, 0, 1, 0, 0.0152535, 0, 0.999884, 0, -0.015968323, -3)
+
+[node name="SpawnPoint_1_2" parent="TEAM_1_HQ" unique_id=782458439 instance=ExtResource("3_m2xda")]
+transform = Transform3D(-0.9995, 0, -0.0316198, 0, 1, 0, 0.0316198, 0, -0.9995, 3, 0.16184998, 0)
+
+[node name="SpawnPoint_1_3" parent="TEAM_1_HQ" unique_id=188087472 instance=ExtResource("3_m2xda")]
+transform = Transform3D(-0.0428871, 0, 0.99908, 0, 1, 0, -0.99908, 0, -0.0428871, -3, 0.014778137, 0)
+
+[node name="SpawnPoint_1_4" parent="TEAM_1_HQ" unique_id=721694755 instance=ExtResource("3_m2xda")]
+transform = Transform3D(0.0841819, 0, -0.99645, 0, 1, 0, 0.99645, 0, 0.0841819, 0, 0.03855133, 3)
+
+[node name="TEAM_2_HQ" parent="." unique_id=1893299163 node_paths=PackedStringArray("HQArea", "InfantrySpawns") instance=ExtResource("1_3ji4r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.133743, 82.2454, -332.62915)
+Team = 2
+AltTeam = 0
+ObjId = 2
+HQArea = NodePath("HQ_Team2")
+InfantrySpawns = [NodePath("SpawnPoint_2_1"), NodePath("SpawnPoint_2_2"), NodePath("SpawnPoint_2_3"), NodePath("SpawnPoint_2_4")]
+
+[node name="HQ_Team2" parent="TEAM_2_HQ" unique_id=1227854656 instance=ExtResource("2_0eb71")]
+points = PackedVector2Array(5, 5, 5, -5, -5, -5, -5, 5)
+
+[node name="SpawnPoint_2_1" parent="TEAM_2_HQ" unique_id=486421657 instance=ExtResource("3_m2xda")]
+transform = Transform3D(0.87795, 0, -0.478754, 0, 1, 0, 0.478754, 0, 0.87795, 0, 0.16358948, -3)
+
+[node name="SpawnPoint_2_2" parent="TEAM_2_HQ" unique_id=179940466 instance=ExtResource("3_m2xda")]
+transform = Transform3D(-0.997604, 0, 0.0691822, 0, 1, 0, -0.0691822, 0, -0.997604, 3, 0.039848328, 0)
+
+[node name="SpawnPoint_2_3" parent="TEAM_2_HQ" unique_id=753702856 instance=ExtResource("3_m2xda")]
+transform = Transform3D(0.162758, 0, 0.986666, 0, 1, 0, -0.986666, 0, 0.162758, -3, 0.011756897, 0)
+
+[node name="SpawnPoint_2_4" parent="TEAM_2_HQ" unique_id=1617992445 instance=ExtResource("3_m2xda")]
+transform = Transform3D(-0.165771, 0, -0.986164, 0, 1, 0, 0.986164, 0, -0.165771, 0, -0.043037415, 3)
+
+[node name="SteelKeg_Pallet_01" parent="TEAM_2_HQ" unique_id=350656684 instance=ExtResource("4_4f32w")]
+transform = Transform3D(0.9035747, 0, 0.42843056, 0, 1, 0, -0.42843056, 0, 0.9035747, -103.23436, 5.711899, -214.81012)
+
+[node name="SteelKeg_Pallet_02" parent="TEAM_2_HQ" unique_id=114905139 instance=ExtResource("4_4f32w")]
+transform = Transform3D(0.92289466, 0, 0.3850525, 0, 1, 0, -0.3850525, 0, 0.92289466, -101.54562, 5.638397, -215.6944)
+
+[node name="SteelKeg_Pallet_03" parent="TEAM_2_HQ" unique_id=582760516 instance=ExtResource("4_4f32w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -99.99573, 4.812546, -216.38611)
+
+[node name="StairsWoodPlatformRailing_01_256" parent="TEAM_2_HQ" unique_id=118255384 instance=ExtResource("5_vqtnt")]
+transform = Transform3D(0.63704735, 0, -0.7708247, 0, 1, 0, 0.7708247, 0, 0.63704735, -98.123245, 4.453865, -216.75232)
+
+[node name="CombatArea" parent="." unique_id=1734977817 node_paths=PackedStringArray("CombatVolume") instance=ExtResource("4_wwq0p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110.236, 0, -325.59)
+CombatVolume = NodePath("CombatVolume")
+
+[node name="CombatVolume" parent="CombatArea" unique_id=738410115 instance=ExtResource("2_0eb71")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 342.9024, 84.381, -105.306)
+points = PackedVector2Array(-354.91116, -167.13843, -421.70932, -142.34735, -346.6466, 50.345673, -247.46124, 223.61327, -186.56354, 181.45326, -266.27966, 18.502167)
+height = 100.0
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1551463196]
+transform = Transform3D(1, 0, 0, 0, 0.101056, 0.994881, 0, -0.994881, 0.101056, -64.5444, 390.265, -341.167)
+
+[node name="DeployCam" parent="Camera3D" unique_id=200242821 instance=ExtResource("5_l8xl8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.98523, 163.60602, -16.6185)
+
+[node name="Static" type="Node3D" parent="." unique_id=1986905423]
+
+[node name="MP_Dumbo_Terrain" parent="Static" unique_id=1931237880 instance=ExtResource("6_ypihf")]
+metadata/_edit_lock_ = true
+
+[node name="MP_Dumbo_Assets" parent="Static" unique_id=1548722857 instance=ExtResource("7_fk2ug")]
+metadata/_edit_lock_ = true
+
+[node name="NASARADAR_Base_01" parent="." unique_id=238388842 instance=ExtResource("17_mmt1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -121.29386, 87.406815, -516.01154)
+
+[node name="NASARADAR_01_UNGROUPED" parent="." unique_id=1499238487 instance=ExtResource("18_0fd4n")]
+transform = Transform3D(0.52922344, 0, 0.8484825, 0, 1, 0, -0.8484825, 0, 0.52922344, -118.27393, 87.35707, -508.13)
+
+[node name="NASARADAR_Base_02" parent="." unique_id=891665699 instance=ExtResource("17_mmt1n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.09986, 87.23742, -501.62357)
+
+[node name="NASARADAR_Radar_01" parent="." unique_id=883934784 instance=ExtResource("19_b51sa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -108.94242, 87.704506, -493.86993)
+
+[node name="Forklift_01" parent="." unique_id=1965991850 instance=ExtResource("37_bal3n")]
+transform = Transform3D(0.38176417, 0, -0.9242598, 0, 1, 0, 0.9242598, 0, 0.38176417, -84.93938, 85.333984, -414.51144)
+
+[node name="FoundationStairs_01_256x128_B" parent="." unique_id=1760963896 instance=ExtResource("38_b51sa")]
+transform = Transform3D(-0.4176134, 0, 0.9086249, 0, 1, 0, -0.9086249, 0, -0.4176134, -34.066, 81.703384, -321.49866)
+
+[node name="FiringRange_NumberTwo_01" parent="." unique_id=716685419 instance=ExtResource("39_lu46o")]
+transform = Transform3D(0.3564608, 0, -0.9343103, 0, 1, 0, 0.9343103, 0, 0.3564608, -23.265799, 87.17159, -321.11792)
+
+[node name="CrateWooden_02" parent="." unique_id=1641320956 instance=ExtResource("40_m1wge")]
+transform = Transform3D(0.95663583, 0, 0.29128662, 0, 1, 0, -0.29128662, 0, 0.95663583, -28.504639, 81.777466, -324.80396)
+
+[node name="CratePile_01" parent="." unique_id=107847371 instance=ExtResource("41_w1w80")]
+transform = Transform3D(0.1735794, 0, 0.9848199, 0, 1, 0, -0.9848199, 0, 0.1735794, -24.52146, 81.5328, -320.18427)
+
+[node name="CommandPost_01_Drone_Props" parent="." unique_id=1572781819 instance=ExtResource("42_fog5u")]
+transform = Transform3D(0.9006603, 0, 0.43452382, 0, 1, 0, -0.43452382, 0, 0.9006603, -25.0657, 81.21436, -309.40802)
+
+[node name="CommandPost_01_Drone_Props2" parent="." unique_id=1437443202 instance=ExtResource("42_fog5u")]
+transform = Transform3D(0.9125846, 0, 0.40888798, 0, 1, 0, -0.40888798, 0, 0.9125846, -139.09583, 88.00254, -554.5541)
+
+[node name="AirfieldBlastBarrier_01" parent="." unique_id=118055988 instance=ExtResource("43_r80pn")]
+transform = Transform3D(0.88075024, 0, 0.47358102, 0, 1, 0, -0.47358102, 0, 0.88075024, -104.29841, 87.51115, -504.9322)
+
+[node name="AlleyTrash_01" parent="." unique_id=1283637220 instance=ExtResource("44_7sbbw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -78.04814, 86.31641, -447.24307)
+
+[node name="AlleyTrash_02" parent="." unique_id=2016306251 instance=ExtResource("44_7sbbw")]
+transform = Transform3D(-0.38244152, 0, -0.9239797, 0, 1, 0, 0.9239797, 0, -0.38244152, -73.65791, 85.72017, -440.749)
+
+[node name="ContainerStandard_01_1280" parent="." unique_id=1145571966 instance=ExtResource("47_odgpp")]
+transform = Transform3D(0.6487419, 0.093462035, -0.7552475, -0.14259438, 0.9897812, 3.2453285e-10, 0.74752975, 0.10769405, 0.65543973, -110.307434, 94.0452, -479.968)
+
+[node name="ContainerStandard_01_1281" parent="." unique_id=666782553 instance=ExtResource("47_odgpp")]
+transform = Transform3D(0.41634426, 0, -0.90920705, 0, 1, 0, 0.90920705, 0, 0.41634426, -87.46939, 93.17004, -429.5799)
+
+[node name="ContainerStandardOpenSidewall_01_640" parent="." unique_id=2095655539 instance=ExtResource("48_tpf1f")]
+transform = Transform3D(0.4366762, 0, -0.89961886, 0, 1, 0, 0.89961886, 0, 0.4366762, -82.8655, 95.89004, -431.627)
+
+[node name="ContainerStandardOpenSidewall_01_641" parent="." unique_id=2080680047 instance=ExtResource("48_tpf1f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.32323, 96.83562, -483.39984)
+
+[node name="WaterTank_01" parent="." unique_id=1549822784 instance=ExtResource("51_w1w80")]
+transform = Transform3D(0.9178508, 0.15579662, 0.36507165, -0.14476576, 0.98778915, -0.057580028, -0.3695846, 0, 0.9291971, -53.027424, 82.35667, -329.55872)
+
+[node name="vehicules" type="Node3D" parent="." unique_id=1571816250]
+
+[node name="VEH_Vector" parent="vehicules" unique_id=643100713 instance=ExtResource("49_m1wge")]
+transform = Transform3D(0.9059017, 0, 0.42348805, 0, 1, 0, -0.42348805, 0, 0.9059017, -144.39445, 95.27317, -539.21136)
+
+[node name="VEH_Vector2" parent="vehicules" unique_id=2061865248 instance=ExtResource("49_m1wge")]
+transform = Transform3D(0.9059017, 0, 0.42348805, 0, 1, 0, -0.42348805, 0, 0.9059017, -139.7568, 95.11077, -530.8313)
+
+[node name="VEH_Flyer60" parent="vehicules" unique_id=561309723 instance=ExtResource("50_w1w80")]
+transform = Transform3D(0.9113602, 0, 0.4116098, 0, 1, 0, -0.4116098, 0, 0.9113602, -121.06292, 94.91091, -540.6795)
+
+[node name="VEH_Flyer61" parent="vehicules" unique_id=3676613 instance=ExtResource("50_w1w80")]
+transform = Transform3D(0.8788754, 0, 0.47705138, 0, 1, 0, -0.47705138, 0, 0.8788754, -117.21477, 94.77354, -531.98914)
+
+[node name="VEH_Flyer62" parent="vehicules" unique_id=1517760979 instance=ExtResource("50_w1w80")]
+transform = Transform3D(-0.9263185, 0, -0.37674168, 0, 1, 0, 0.37674168, 0, -0.9263185, -22.331059, 88.97573, -330.28845)
+
+[node name="VEH_Flyer63" parent="vehicules" unique_id=1905200575 instance=ExtResource("50_w1w80")]
+transform = Transform3D(-0.94654804, 0, -0.3225632, 0, 1, 0, 0.3225632, 0, -0.94654804, -25.367157, 89.21058, -336.92496)
+
+[node name="VEH_Vector3" parent="vehicules" unique_id=1220098037 instance=ExtResource("49_m1wge")]
+transform = Transform3D(-0.88035804, 0.04848081, -0.47182554, 0.046115797, 0.99879843, 0.01658271, 0.4720626, -0.0071598873, -0.881536, -44.63807, 89.48278, -326.76492)
+
+[node name="VEH_Vector4" parent="vehicules" unique_id=1661849207 instance=ExtResource("49_m1wge")]
+transform = Transform3D(-0.86315084, 0.085963085, -0.4975752, 0.075870104, 0.99629444, 0.040510867, 0.49921384, -0.0027841046, -0.86647433, -48.626144, 89.715126, -333.20053)
+
+[node name="GM1083CargoTruck_01_Fuel" parent="vehicules" unique_id=1144719737 instance=ExtResource("20_lu46o")]
+transform = Transform3D(0.91164017, 0, 0.41098934, 0, 1, 0, -0.41098934, 0, 0.91164017, -107.23037, 86.97586, -483.52512)
+
+[node name="GM1083CargoTruck_01_Canopy_Cargo01" parent="vehicules" unique_id=1055661146 instance=ExtResource("21_m1wge")]
+transform = Transform3D(0.93409234, 0, 0.3570315, 0, 1, 0, -0.3570315, 0, 0.93409234, -104.26377, 86.98779, -475.71234)
+
+[node name="GM1083CargoTruck_01_Canopy" parent="vehicules" unique_id=466530830 instance=ExtResource("22_w1w80")]
+transform = Transform3D(0.88750196, 0, 0.460804, 0, 1, 0, -0.460804, 0, 0.88750196, -100.44856, 86.71642, -469.10266)
+
+[node name="GM1083CargoTruck_01_Bed" parent="vehicules" unique_id=1343890819 instance=ExtResource("23_fog5u")]
+transform = Transform3D(0.8159358, 0, 0.57814246, 0, 1, 0, -0.57814246, 0, 0.8159358, -92.94382, 86.39127, -460.1398)
+
+[node name="GFoodTruck_Open_01" parent="vehicules" unique_id=1560878197 instance=ExtResource("24_r80pn")]
+transform = Transform3D(0.9226997, 0, 0.38551956, 0, 1, 0, -0.38551956, 0, 0.9226997, -90.1056, 86.15958, -451.27005)
+
+[node name="GCarSedan_01_OpenDoors_D" parent="vehicules" unique_id=111807743 instance=ExtResource("25_7sbbw")]
+transform = Transform3D(0.8705704, 0, 0.49204373, 0, 1, 0, -0.49204373, 0, 0.8705704, -84.331276, 85.96021, -443.48062)
+
+[node name="GCarSedan_01_OpenDoors_D2" parent="vehicules" unique_id=228064774 instance=ExtResource("25_7sbbw")]
+transform = Transform3D(0.8705704, 0, 0.49204373, 0, 1, 0, -0.49204373, 0, 0.8705704, -87.911896, 85.96021, -443.48062)
+
+[node name="GCarSedan_01_OpenDoors_D3" parent="vehicules" unique_id=862261487 instance=ExtResource("25_7sbbw")]
+transform = Transform3D(0.8705704, 0, 0.49204373, 0, 1, 0, -0.49204373, 0, 0.8705704, -83.57385, 85.75853, -435.58475)
+
+[node name="GCarSedan_01" parent="vehicules" unique_id=848648873 instance=ExtResource("26_3vhdp")]
+transform = Transform3D(0.8780164, 0, 0.47863057, 0, 1, 0, -0.47863057, 0, 0.8780164, -79.680595, 85.62104, -434.43845)
+
+[node name="GCarCompact_01" parent="vehicules" unique_id=1195756025 instance=ExtResource("27_urod3")]
+transform = Transform3D(0.90004516, 0, 0.4357967, 0, 1, 0, -0.4357967, 0, 0.90004516, -77.81049, 85.34318, -427.16318)
+
+[node name="GCar4x4_01" parent="vehicules" unique_id=1442579764 instance=ExtResource("28_odgpp")]
+transform = Transform3D(0.8686488, 0, 0.49542835, 0, 1, 0, -0.49542835, 0, 0.8686488, -83.37624, 85.50198, -429.54492)
+
+[node name="GCar4x4_02" parent="vehicules" unique_id=828236654 instance=ExtResource("28_odgpp")]
+transform = Transform3D(-0.8159358, 0, -0.57814246, 0, 1, 0, 0.57814246, 0, -0.8159358, -42.937416, 82.762566, -348.7472)
+
+[node name="GCarSUV_01" parent="vehicules" unique_id=1438044308 instance=ExtResource("29_tpf1f")]
+transform = Transform3D(-0.8950745, 0, -0.4459167, 0, 1, 0, 0.4459167, 0, -0.8950745, -46.803303, 83.03878, -355.2997)
+
+[node name="GM1083CargoTruck_01_Canopy_Cargo03" parent="vehicules" unique_id=2145130647 instance=ExtResource("30_1phxm")]
+transform = Transform3D(-0.8607065, 0, -0.50910145, 0, 1, 0, 0.50910145, 0, -0.8607065, -48.303658, 83.18757, -362.3432)
+
+[node name="GTruckDelivery_01_Cargo01" parent="vehicules" unique_id=942728310 instance=ExtResource("31_ko2pn")]
+transform = Transform3D(-0.9082162, 0, -0.41850126, 0, 1, 0, 0.41850126, 0, -0.9082162, -54.55231, 83.504326, -368.49933)
+
+[node name="GVanDeliveryUS_01_Open" parent="vehicules" unique_id=1588481953 instance=ExtResource("32_pkwbx")]
+transform = Transform3D(-0.88872135, 0, -0.45844802, 0, 1, 0, 0.45844802, 0, -0.88872135, -56.867893, 83.7527, -378.21002)
+
+[node name="GCarCompact_01_OpenDoors" parent="vehicules" unique_id=1466894997 instance=ExtResource("33_4qrxk")]
+transform = Transform3D(-0.9286672, 0, -0.370914, 0, 1, 0, 0.370914, 0, -0.9286672, -62.20494, 83.93674, -383.52396)
+
+[node name="GMetroBus_01_Brooklyn" parent="vehicules" unique_id=658871473 instance=ExtResource("34_s44ge")]
+transform = Transform3D(-0.9088144, 0, -0.41720098, 0, 1, 0, 0.41720098, 0, -0.9088144, -63.806705, 84.27281, -396.43762)
+
+[node name="GCarSUV_01_PoliceUSNY" parent="vehicules" unique_id=217715597 instance=ExtResource("35_jgmy5")]
+transform = Transform3D(-0.9082601, 0, -0.41840604, 0, 1, 0, 0.41840604, 0, -0.9082601, -63.900803, 84.19095, -389.48608)
+
+[node name="GScooterClassic_01_Config_01" parent="vehicules" unique_id=814788468 instance=ExtResource("36_46pl4")]
+transform = Transform3D(-0.98572695, 0, -0.16835186, 0, 1, 0, 0.16835186, 0, -0.98572695, -66.65501, 84.74979, -405.21118)
+
+[node name="GMetroBus_01_Brooklyn2" parent="vehicules" unique_id=1244931032 instance=ExtResource("34_s44ge")]
+transform = Transform3D(-0.68910104, 0, -0.72466516, 0, 1, 0, 0.72466516, 0, -0.68910104, -72.7248, 84.89216, -413.69315)
+
+[node name="GM1083CargoTruck_01_Canopy2" parent="vehicules" unique_id=1027227999 instance=ExtResource("22_w1w80")]
+transform = Transform3D(-0.6234022, 0, -0.78190136, 0, 1, 0, 0.78190136, 0, -0.6234022, -77.325455, 85.30678, -422.22375)
+
+[node name="echelles" type="Node3D" parent="." unique_id=1214667005]
+
+[node name="WalkwayLadder_768" parent="echelles" unique_id=138324967 instance=ExtResource("43_7sbbw")]
+transform = Transform3D(0.4967013, 0, -0.86792153, 0, 1, 0, 0.86792153, 0, 0.4967013, -125.36924, 88.122475, -536.36304)
+
+[node name="WalkwayLadder_769" parent="echelles" unique_id=649338372 instance=ExtResource("43_7sbbw")]
+transform = Transform3D(0.4967013, 0, -0.86792153, 0, 1, 0, 0.86792153, 0, 0.4967013, -123.9146, 88.122475, -533.4789)
+
+[node name="WalkwayLadder_770" parent="echelles" unique_id=2146376407 instance=ExtResource("43_7sbbw")]
+transform = Transform3D(0.33739108, 0, -0.9413646, 0, 1, 0, 0.9413646, 0, 0.33739108, -132.88211, 87.646835, -528.72675)
+
+[node name="WalkwayLadder_771" parent="echelles" unique_id=1970111124 instance=ExtResource("43_7sbbw")]
+transform = Transform3D(0.33739108, 0, -0.9413646, 0, 1, 0, 0.9413646, 0, 0.33739108, -132.88211, 87.646835, -528.72675)
+
+[node name="WalkwayLadder_768_NoDestruction" parent="echelles" unique_id=1929008952 instance=ExtResource("44_3vhdp")]
+transform = Transform3D(0.39024907, 0, -0.9207093, 0, 1, 0, 0.9207093, 0, 0.39024907, -25.716503, 81.06114, -321.6966)
+
+[node name="WalkwayLadder_768_NoDestruction2" parent="echelles" unique_id=1026450395 instance=ExtResource("44_3vhdp")]
+transform = Transform3D(0.40223545, 0, -0.9155364, 0, 1, 0, 0.9155364, 0, 0.40223545, -34.51284, 81.622215, -317.82193)
+
+[node name="WalkwayStair_256" parent="echelles" unique_id=1402895759 instance=ExtResource("13_7p00p")]
+transform = Transform3D(-0.42393076, 0, 0.90569454, 0, 1, 0, -0.90569454, 0, -0.42393076, -124.04485, 92.354256, -518.9347)
+
+[node name="Beton bloc" type="Node3D" parent="." unique_id=1584556360]
+
+[node name="BarrierStoneBlock_01_A" parent="Beton bloc" unique_id=1284545988 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -71.06127, 85.76588, -434.67453)
+
+[node name="BarrierStoneBlock_01_A2" parent="Beton bloc" unique_id=845349438 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -72.54607, 85.85836, -433.69806)
+
+[node name="BarrierStoneBlock_01_A3" parent="Beton bloc" unique_id=504480388 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -74.014206, 85.88488, -433.36377)
+
+[node name="BarrierStoneBlock_01_A4" parent="Beton bloc" unique_id=1282260407 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -72.111885, 87.05836, -433.77142)
+
+[node name="BarrierStoneBlock_01_A5" parent="Beton bloc" unique_id=743828799 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -73.756615, 87.16982, -433.00082)
+
+[node name="BarrierStoneBlock_01_A6" parent="Beton bloc" unique_id=1278936463 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70.748215, 86.96587, -434.75235)
+
+[node name="BarrierStoneBlock_01_A7" parent="Beton bloc" unique_id=349096019 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.35155, 85.33589, -423.5905)
+
+[node name="BarrierStoneBlock_01_A8" parent="Beton bloc" unique_id=636604073 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.45021, 85.54385, -422.52792)
+
+[node name="BarrierStoneBlock_01_A9" parent="Beton bloc" unique_id=1039397764 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.8607, 85.64552, -421.96924)
+
+[node name="BarrierStoneBlock_01_A10" parent="Beton bloc" unique_id=282985861 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.06426, 85.91907, -421.79727)
+
+[node name="BarrierStoneBlock_01_A11" parent="Beton bloc" unique_id=1279453515 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -86.820496, 86.53589, -423.72498)
+
+[node name="BarrierStoneBlock_01_A12" parent="Beton bloc" unique_id=219172713 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.88046, 86.74385, -422.48553)
+
+[node name="BarrierStoneBlock_01_A13" parent="Beton bloc" unique_id=815438843 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.19359, 87.119064, -421.706)
+
+[node name="BarrierStoneBlock_01_B" parent="Beton bloc" unique_id=1312412743 instance=ExtResource("46_urod3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110.75875, 86.72973, -470.37)
+
+[node name="BarrierStoneBlock_01_A14" parent="Beton bloc" unique_id=2088490573 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.29631, 87.122665, -470.20132)
+
+[node name="BarrierStoneBlock_01_A15" parent="Beton bloc" unique_id=105520750 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.38785, 88.606094, -469.24127)
+
+[node name="BarrierStoneBlock_01_A16" parent="Beton bloc" unique_id=1586435148 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110.37417, 89.12973, -470.86343)
+
+[node name="BarrierStoneBlock_01_A17" parent="Beton bloc" unique_id=1805054364 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.62894, 86.84698, -469.81314)
+
+[node name="BarrierStoneBlock_01_A18" parent="Beton bloc" unique_id=1034669498 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.50738, 87.979065, -470.00876)
+
+[node name="BarrierStoneBlock_01_A19" parent="Beton bloc" unique_id=1335583185 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.85768, 86.73065, -469.05392)
+
+[node name="BarrierStoneBlock_01_A20" parent="Beton bloc" unique_id=669204555 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.23266, 86.58799, -469.8636)
+
+[node name="BarrierStoneBlock_01_A21" parent="Beton bloc" unique_id=270726075 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.378845, 89.17906, -470.14536)
+
+[node name="BarrierStoneBlock_01_A22" parent="Beton bloc" unique_id=1744013798 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110.92357, 87.362526, -473.60284)
+
+[node name="BarrierStoneBlock_01_A23" parent="Beton bloc" unique_id=778444405 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.308815, 87.47746, -472.99808)
+
+[node name="BarrierStoneBlock_01_A24" parent="Beton bloc" unique_id=585825235 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.83052, 87.57619, -472.88016)
+
+[node name="BarrierStoneBlock_01_A25" parent="Beton bloc" unique_id=760545292 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.35287, 87.113686, -474.2913)
+
+[node name="BarrierStoneBlock_01_A26" parent="Beton bloc" unique_id=1823548645 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.72347, 86.82744, -473.19934)
+
+[node name="BarrierStoneBlock_01_A27" parent="Beton bloc" unique_id=2053244668 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110.51009, 86.96353, -474.4992)
+
+[node name="BarrierStoneBlock_01_B2" parent="Beton bloc" unique_id=1203718223 instance=ExtResource("46_urod3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.39934, 88.678825, -472.76532)
+
+[node name="BarrierStoneBlock_01_A28" parent="Beton bloc" unique_id=1982309813 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.368645, 91.02468, -474.10147)
+
+[node name="BarrierStoneBlock_01_A29" parent="Beton bloc" unique_id=1667796695 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.82987, 88.776184, -472.67395)
+
+[node name="BarrierStoneBlock_01_A30" parent="Beton bloc" unique_id=956828014 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.21922, 89.97618, -472.79547)
+
+[node name="BarrierStoneBlock_01_B3" parent="Beton bloc" unique_id=1733158479 instance=ExtResource("46_urod3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.197945, 88.73328, -473.659)
+
+[node name="decors" type="Node3D" parent="." unique_id=1698973219]
+
+[node name="StairsBasement_01_256x128" parent="decors" unique_id=1980983590 instance=ExtResource("10_uqimf")]
+transform = Transform3D(-0.48884976, 0, 0.872368, 0, 1, 0, -0.872368, 0, -0.48884976, -116.56875, 87.88666, -548.82263)
+
+[node name="StairsMetal_01" parent="decors" unique_id=1974350809 instance=ExtResource("11_wcmbg")]
+transform = Transform3D(-0.9234448, 0, -0.3837312, 0, 1, 0, 0.3837312, 0, -0.9234448, -124.14087, 88.23047, -549.7343)
+
+[node name="SteelKeg_Pallet_01" parent="decors" unique_id=876328181 instance=ExtResource("4_4f32w")]
+transform = Transform3D(0.9008726, 0, 0.43408367, 0, 1, 0, -0.43408367, 0, 0.9008726, -133.60956, 87.70712, -533.6105)
+
+[node name="ScissorLift_01" parent="decors" unique_id=542027438 instance=ExtResource("12_q3b4u")]
+transform = Transform3D(0.5060294, -0.004035666, -0.8625067, 0.01031458, 0.9999459, 0.001372779, 0.86245453, -0.009591063, 0.5060437, -124.63922, 87.64678, -529.0303)
+
+[node name="WalkwayStair_257" parent="decors" unique_id=512356952 instance=ExtResource("13_7p00p")]
+transform = Transform3D(-0.449849, 0, 0.89310455, 0, 1, 0, -0.89310455, 0, -0.449849, -120.745445, 89.859505, -520.6576)
+
+[node name="SuppliesPack_01" parent="decors" unique_id=1494477883 instance=ExtResource("14_slcg8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -120.7745, 87.59887, -523.3574)
+
+[node name="SuppliesPack_02" parent="decors" unique_id=2073251173 instance=ExtResource("14_slcg8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -122.1377, 87.6718, -521.8552)
+
+[node name="PalletWooden_01_128x128" parent="decors" unique_id=121825283 instance=ExtResource("15_7wg6v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -122.98854, 87.64657, -524.3853)
+
+[node name="PalletWooden_01_128x129" parent="decors" unique_id=256076136 instance=ExtResource("15_7wg6v")]
+transform = Transform3D(0.9981209, -0.054079503, 0.028810296, 0.01298133, 0.6461322, 0.7631151, -0.059884157, -0.7613071, 0.64562005, -122.552086, 88.029594, -522.90875)
+
+[node name="PalletWoodenPile_01_D" parent="decors" unique_id=2047944219 instance=ExtResource("16_xok3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -125.85842, 87.597145, -519.63153)
+
+[node name="BarrierStoneBlock_01_A" parent="." unique_id=1191477232 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 85, -240)
+
+[node name="BarrierStoneBlock_01_A2" parent="." unique_id=1295785929 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 85, -240)
+
+[node name="BarrierStoneBlock_01_A3" parent="." unique_id=490413353 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 85, -240)
+
+[node name="BarrierStoneBlock_01_A4" parent="." unique_id=112669596 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 85, -240)
+
+[node name="BarrierStoneBlock_01_A5" parent="." unique_id=2127618982 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 86, -240)
+
+[node name="BarrierStoneBlock_01_A6" parent="." unique_id=356197250 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 86, -240)
+
+[node name="BarrierStoneBlock_01_A7" parent="." unique_id=233082667 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 86, -240)
+
+[node name="BarrierStoneBlock_01_A8" parent="." unique_id=1266384549 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 86, -240)
+
+[node name="BarrierStoneBlock_01_A9" parent="." unique_id=1234246377 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 80, -292)
+
+[node name="BarrierStoneBlock_01_A10" parent="." unique_id=935266925 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 80, -292)
+
+[node name="BarrierStoneBlock_01_A11" parent="." unique_id=665179887 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 80, -292)
+
+[node name="BarrierStoneBlock_01_A12" parent="." unique_id=1500158621 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 80, -292)
+
+[node name="BarrierStoneBlock_01_A13" parent="." unique_id=481992230 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 81, -292)
+
+[node name="BarrierStoneBlock_01_A14" parent="." unique_id=2063878288 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 81, -292)
+
+[node name="BarrierStoneBlock_01_A15" parent="." unique_id=1947250779 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 81, -292)
+
+[node name="BarrierStoneBlock_01_A16" parent="." unique_id=314318741 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 81, -292)
+
+[node name="BarrierStoneBlock_01_A17" parent="." unique_id=1894288379 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 80, -292)
+
+[node name="BarrierStoneBlock_01_A18" parent="." unique_id=1735058684 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 81, -292)
+
+[node name="BarrierStoneBlock_01_A19" parent="." unique_id=1249745725 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 80, -292)
+
+[node name="BarrierStoneBlock_01_A20" parent="." unique_id=175623398 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 81, -292)
+
+[node name="BarrierStoneBlock_01_A21" parent="." unique_id=127379869 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 80, -292)
+
+[node name="BarrierStoneBlock_01_A22" parent="." unique_id=1694430094 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 81, -292)
+
+[node name="BarrierStoneBlock_01_A23" parent="." unique_id=1139445082 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 80, -291)
+
+[node name="BarrierStoneBlock_01_A24" parent="." unique_id=1343608233 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 81, -291)
+
+[node name="BarrierStoneBlock_01_A25" parent="." unique_id=257746074 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22, 79, -291)
+
+[node name="BarrierStoneBlock_01_A26" parent="." unique_id=254258868 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 81, -292)
+
+[node name="BarrierStoneBlock_01_A27" parent="." unique_id=494014796 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13, 82, -292)
+
+[node name="BarrierStoneBlock_01_A28" parent="." unique_id=1876367812 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15, 82, -292)
+
+[node name="BarrierStoneBlock_01_A29" parent="." unique_id=1198423595 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 82, -292)
+
+[node name="BarrierStoneBlock_01_A30" parent="." unique_id=1133915617 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 82, -292)
+
+[node name="BarrierStoneBlock_01_A31" parent="." unique_id=264656817 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 82, -292)
+
+[node name="BarrierStoneBlock_01_A32" parent="." unique_id=1055030588 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 82, -292)
+
+[node name="BarrierStoneBlock_01_A33" parent="." unique_id=679513413 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 82, -292)
+
+[node name="BarrierStoneBlock_01_A34" parent="." unique_id=1319166661 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 83, -292)
+
+[node name="BarrierStoneBlock_01_A35" parent="." unique_id=1006072956 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 83, -292)
+
+[node name="BarrierStoneBlock_01_A36" parent="." unique_id=1578297479 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 83, -292)
+
+[node name="BarrierStoneBlock_01_A37" parent="." unique_id=275050636 instance=ExtResource("45_3vhdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 83, -292)
